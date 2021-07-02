@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>
+
+      </title>
+   </head>
+   <body>
+      <script>
+         customElements.whenDefined('hcl-sdk').then(function() {
+         var HCLSDK = document.querySelector('hcl-sdk');
+         HCLSDK.init({
+         apiKey: '3001338d4ba57fd0'
+         })
+      });
+
+      function intial(){
+         document.querySelector('hcl-sdk').backToHome();
+      }
+
+      </script>
+      <script src=https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js></script>
+      <script src=https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js></script>
+
+   <div>
+      <button onclick="intial()">hello</button>
+   </div>
+      <hcl-sdk>
+      </hcl-sdk>      
+   </body>
+</html>

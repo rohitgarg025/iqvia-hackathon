@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
-    <!-- Font Awesome Icon Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-
 <body style = "background-color: #FFEFD5;">
 
     <!-- header -->
@@ -38,8 +34,7 @@
             <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
           </span> -->
 
-            <button class="shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-red-500 hover:bg-red-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href = "my_links.html" style="margin-left: auto;
-              margin-right: auto;" class="fas fa-first-aid mx-auto"> SOS</a>
+            <button class="shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-red-500 hover:bg-red-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">SOS
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -48,126 +43,34 @@
         </div>
       </div>
     </header>
-    <script src=https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js></script>
-    <script src=https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js></script>
 
-
-    <!-- <script>      
+    <script>      
 
       // Initialize HCL SDK API
 
       const hclAPI = new HclAPI({
 
-        apiKey: '3001338d4ba57fd0'
-         // To replace by a working API key
+        apiKey: '3001338d4ba57fd0' // To replace by a working API key
 
       });
-      const params = {
-          first: 50,
-          offset: 0,
-          country: "us",
-};
 
-
-hclAPI.activities(params).then(result => {
-
-    var div = document.getElementById("Result")
-    div.innerHTML = JSON.stringify(result)
-    console.log(result)
-
-  // The list of activities
-
-}).catch(err => {
-
-  // An error happened.
-
-}); 
-      console.log(hclAPI)
-    </script> -->
-    <script>
-      customElements.whenDefined('hcl-sdk').then(function(){
-        var HCLSDK = document.querySelector('hcl-sdk');
-      
-      HCLSDK.init({
+      hcAPI.init({
 
 apiKey: "3001338d4ba57fd0",
 
-// icons: {
+icons: {
 
-// search: `<svg>...</svg>`,
+search: `<svg>...</svg>`,
 
-// },
-// entry: {
+},
 
-// screenName: 'home'
+showSuggestModification: false,
 
-// },
+});
 
-// showSuggestModification: false,
 
-})
-})
+
     </script>
-
-<div class="rounded-lg max-w-5xl mx-auto flex border-2 border-black-500 rounded mb-3 mt-6">
-
-  <div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
-    <a href = "#"  style="color:black; margin-left: auto;
-    margin-right: auto;" class="fas fa-virus mx-auto"> </a> 
-    
-    <span class="mx-auto">Covid Care</span>
-</div>
-
-<div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
-  <a href = "#"  style="color:black; margin-left: auto;
-  margin-right: auto;" class="fas fa-heartbeat mx-auto"> </a> 
-  
-  <span class="mx-auto">Cardiology</span>
-</div>
-
-
-  <div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
-      <a href = "#"  style="color:black; margin-left: auto;
-      margin-right: auto;" class="fas fa-allergies mx-auto"> </a>
-      
-      <span class="mx-auto">Dermatology</span>
-  </div>
-
-  <div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
-      <a href = "my_links.html" style="color:black; margin-left: auto;
-      margin-right: auto;" class="fas fa-stethoscope mx-auto"></a>
-      
-      <span class="mx-auto" >General </span> <span class="mx-auto">Physician</span>
-  </div>
-  
-  <div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
-      <a href = "latest_content.html" style="color:black; margin-left: auto;margin-right: auto;" class="fas fa-baby mx-auto"> </a> 
-      
-      <span class="mx-auto" >Pediatrics</span>
-  </div>
-  
-  <div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
-      <a href = "own_page.html" style="color:black; margin-left: auto;
-      margin-right: auto;" class="mx-auto fas fa-brain"> </a>
-      
-      <span class="mx-auto">Psychiatry</span>
-  </div>
-
-  <div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
-    <a href = "own_page.html" style="color:black; margin-left: auto;
-    margin-right: auto;" class="mx-auto fas fa-apple-alt"> </a>
-    
-    <span class="mx-auto">Dietetics</span>
-</div>
-
-<div class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
-  <a href = "own_page.html" style="color:black; margin-left: auto;
-  margin-right: auto;" class="mx-auto fas fa-tooth"> </a>
-  
-  <span class="mx-auto">Dentist</span>
-</div>
-  
-</div>
 
     <!-- search -->
     <div class="flex w-full justify-center items-end">
@@ -175,15 +78,9 @@ apiKey: "3001338d4ba57fd0",
         <!-- <label for="hero-field" class="leading-7 text-sm text-gray-600">Placeholder</label> -->
         <input placeholder="Find doctors, medicines and much more. Instantly. Near You." type="text" id="hero-field" name="hero-field" class="animate-bounce w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-green-200 focus:bg-transparent border border-gray-300 focus:border-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
       </div>
-      <div id="Result">
-        <hcl-sdk>
-
-        </hcl-sdk>
-
-      </div>
       <br>
         <!-- search button -->
-      <button class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-green-500 hover:bg-green-600 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" onclick="window.location.href='KUCHCHALA.html'">Find</button>
+      <button class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-green-500 hover:bg-green-600 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Find</button>
     </div>
 
      <!-- img body -->
@@ -206,7 +103,13 @@ apiKey: "3001338d4ba57fd0",
           <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?doctor">
         </div>
       </div>
-    </section> 
+    </section>
+
+
+
+   
+
+
       <!-- US covid cases map -->
       <br>
       <hr>
@@ -404,7 +307,7 @@ apiKey: "3001338d4ba57fd0",
               </div>
               <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">24x7 Help Support</h2>
-                <p class="leading-relaxed">Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.</p>
+                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
               </div>
             </div>
           </div>
@@ -421,8 +324,8 @@ apiKey: "3001338d4ba57fd0",
                 </svg>
               </div>
               <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">100% Safe Consultations</h2>
-                <p class="leading-relaxed">Be assured that your consultation will be fully private and secured as HCPs are regularly reviewed by our health inspectors.</p>
+                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">The 400 Blows</h2>
+                <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
               </div>
             </div>
           </div>
@@ -556,5 +459,6 @@ apiKey: "3001338d4ba57fd0",
           </div>
         </div>
       </footer>
+      <script src="https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js"></script>
 </body>
 </html>

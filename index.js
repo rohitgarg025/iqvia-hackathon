@@ -67,7 +67,7 @@ const config = {
 var matches = window.location.hash.match(/sp=([A-Z0-9.]+)/);
 if (matches) {
   var specialtyCd = matches[1];
-  var specialtyLabel = specialtyLabelByCode[specialtyCode];
+  var specialtyLabel = specialtyLabelByCode[specialtyCd];
   if (specialtyLabel) {
     config.entry = {
       screenName: 'searchNearMe',

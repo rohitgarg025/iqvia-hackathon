@@ -55,8 +55,8 @@ function getSettingsFromLocal() {
   }
   return {
     apiKey: '3001786a6ae30dc8',
-    appName: 'Carenity',
-    appURL: 'https://apps.apple.com/fr/app/carenity/id1404422803'
+    appName: 'Carenigga',
+    appURL: 'https://hcliqvia.netlify.app'
   };
 }
 
@@ -66,12 +66,12 @@ const config = {
 
 var matches = window.location.hash.match(/sp=([A-Z0-9.]+)/);
 if (matches) {
-  var specialtyCode = matches[1];
+  var specialtyCd = matches[1];
   var specialtyLabel = specialtyLabelByCode[specialtyCode];
   if (specialtyLabel) {
     config.entry = {
       screenName: 'searchNearMe',
-      specialtyCode: 'SP.WCA.75',
+      specialtyCode: specialtyCd,
     }
   }
 }

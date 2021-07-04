@@ -6,6 +6,15 @@ var burgerEl = document.querySelector('.burger');
 var specialtyLabelByCode = {
   'SP.WCA.75': 'Dentistry',
   'SP.WCA.08': 'Cardiology',
+  'SP.WUS.DIA': 'DIABETES',
+  'SP.WUS.CAR': 'Cardiology',
+  'SP.WUS.PSC': 'Psychology',
+  'SP.WUS.D': 'DERMATOLOGY',
+  'SP.WUS.DEN': 'Dentistry',
+  'SP.WUS.ALL': 'Allergy',
+  'SP.WUS.PUL': 'Pulmonary Disease',
+  'SP.WUS.GP': 'GENERAL PRACTICE',
+  'SP.WUS.PED': 'Pediatrics',
 }
 
 // for (let i = 0; i < 3; i++) {
@@ -45,7 +54,7 @@ function getSettingsFromLocal() {
     } catch (err) { }
   }
   return {
-    apiKey: '3001338d4ba57fd0',
+    apiKey: '3001786a6ae30dc8',
     appName: 'Carenity',
     appURL: 'https://apps.apple.com/fr/app/carenity/id1404422803'
   };
@@ -62,7 +71,7 @@ if (matches) {
   if (specialtyLabel) {
     config.entry = {
       screenName: 'searchNearMe',
-      specialtyCode
+      specialtyCode: specialtyCode
     }
   }
 }

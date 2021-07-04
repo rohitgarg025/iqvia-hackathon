@@ -55,8 +55,6 @@ function getSettingsFromLocal() {
   }
   return {
     apiKey: '3001786a6ae30dc8',
-    appName: 'Carenigga',
-    appURL: 'https://hcliqvia.netlify.app'
   };
 }
 

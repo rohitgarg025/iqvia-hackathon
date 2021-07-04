@@ -71,7 +71,7 @@ if (matches) {
   if (specialtyLabel) {
     config.entry = {
       screenName: 'searchNearMe',
-      specialtyCode: 'SP.WUS.CAR',
+      specialtyCode: 'SP.WCA.75',
     }
   }
 }

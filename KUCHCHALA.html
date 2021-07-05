@@ -17,7 +17,7 @@
   'SP.WUS.ALL': 'Allergy',
   'SP.WUS.PUL': 'Pulmonary Disease',
   'SP.WUS.GP': 'GENERAL PRACTICE',
-  'SP.WUS.PED': 'Pediatrics',
+  'SP.WUS.PD': 'PEDIATRICS',
 }
 
          var matches = window.location.hash.match(/sp=([A-Z0-9.]+)/);
@@ -45,7 +45,7 @@
          apiKey: '3001786a6ae30dc8',
          entry: {
             screenName: 'searchNearMe',
-            specialtyCode: specialtyLabelByCode[specialtyCd],
+            specialtyCode: specialtyCd,
          }
          })
       });

@@ -55,11 +55,8 @@ function getSettingsFromLocal() {
   }
   return {
     apiKey: '3001786a6ae30dc8',
-<<<<<<< HEAD
     appName: 'Carenity',
     appURL: 'https://apps.apple.com/fr/app/carenity/id1404422803'
-=======
->>>>>>> f15ac2ca910507c17c158fb15560430535ffaeb8
   };
 }
 

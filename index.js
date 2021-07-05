@@ -21,9 +21,9 @@ var specialtyLabelByCode = {
 //   burgerEl.innerHTML += '<div></div>';
 // }
 
-burgerEl.addEventListener('click', function() {
-  document.body.classList.toggle('menu-opened')
-});
+// burgerEl.addEventListener('click', function() {
+//   document.body.classList.toggle('menu-opened')
+// });
 
 function openSettings() {
   sidebarEl.classList.add('settings-opened');

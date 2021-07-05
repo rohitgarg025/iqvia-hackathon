@@ -17,21 +17,21 @@ var specialtyLabelByCode = {
   'SP.WUS.PED': 'Pediatrics',
 }
 
-// for (let i = 0; i < 3; i++) {
-//   burgerEl.innerHTML += '<div></div>';
-// }
+for (let i = 0; i < 3; i++) {
+  burgerEl.innerHTML += '<div></div>';
+}
 
-// burgerEl.addEventListener('click', function() {
-//   document.body.classList.toggle('menu-opened')
-// });
+burgerEl.addEventListener('click', function() {
+  document.body.classList.toggle('menu-opened')
+});
 
-// function openSettings() {
-//   sidebarEl.classList.add('settings-opened');
-// }
+function openSettings() {
+  sidebarEl.classList.add('settings-opened');
+}
 
-// settingPanelEl.addEventListener('backPressed', function() {
-//   sidebarEl.classList.remove('settings-opened');
-// });
+settingPanelEl.addEventListener('backPressed', function() {
+  sidebarEl.classList.remove('settings-opened');
+});
 
 function searchNearMe(specialtyCode) {
 //   document.body.classList.remove('menu-opened');
@@ -56,7 +56,7 @@ function getSettingsFromLocal() {
   return {
     apiKey: '3001786a6ae30dc8',
     appName: 'Carenity',
-    appURL: 'https://apps.apple.com/fr/app/carenity/id1404422803'
+    appURL: 'https://hcliqvia.netlify.app/'
   };
 }
 

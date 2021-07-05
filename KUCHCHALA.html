@@ -9,7 +9,11 @@
          customElements.whenDefined('hcl-sdk').then(function() {
          var HCLSDK = document.querySelector('hcl-sdk');
          HCLSDK.init({
-         apiKey: '3001786a6ae30dc8'
+         apiKey: '3001786a6ae30dc8',
+         entry: {
+            screenName: 'searchNearMe',
+            specialtyCode: 'SP.WCA.08',
+         }
          })
       });
 

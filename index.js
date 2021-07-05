@@ -1,7 +1,7 @@
 var sidebarEl = document.querySelector('.sidebar');
 var settingPanelEl = document.querySelector('settings-panel');
 var hclSdkEl = document.querySelector('hcl-sdk');
-var burgerEl = document.querySelector('.burger');
+// var burgerEl = document.querySelector('.burger');
 
 var specialtyLabelByCode = {
   'SP.WCA.75': 'Dentistry',
@@ -17,9 +17,9 @@ var specialtyLabelByCode = {
   'SP.WUS.PED': 'Pediatrics',
 }
 
-for (let i = 0; i < 3; i++) {
-  burgerEl.innerHTML += '<div></div>';
-}
+// for (let i = 0; i < 3; i++) {
+//   burgerEl.innerHTML += '<div></div>';
+// }
 
 burgerEl.addEventListener('click', function() {
   document.body.classList.toggle('menu-opened')

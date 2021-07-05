@@ -1,0 +1,2072 @@
+{
+  "data": {
+    "codesByLabel": {
+      "codes": [
+        {
+          "id": "SP.WUS.149",
+          "longLbl": "Laboratory Supply"
+        },
+        {
+          "id": "SP.WUS.150",
+          "longLbl": "Medical/Surgical Supply"
+        },
+        {
+          "id": "SP.WUS.152",
+          "longLbl": "Equipment"
+        },
+        {
+          "id": "SP.WUS.155",
+          "longLbl": "PET Scan"
+        },
+        {
+          "id": "SP.WUS.167",
+          "longLbl": "Occupational Therapy"
+        },
+        {
+          "id": "SP.WUS.208",
+          "longLbl": "Government"
+        },
+        {
+          "id": "SP.WUS.209",
+          "longLbl": "Wound Care"
+        },
+        {
+          "id": "SP.WUS.GYO",
+          "longLbl": "Gynecologic Oncology"
+        },
+        {
+          "id": "SP.WUS.MM",
+          "longLbl": "MEDICAL MICROBIOLOGY"
+        },
+        {
+          "id": "SP.WUS.OP",
+          "longLbl": "PEDIATRIC ORTHOPEDICS"
+        },
+        {
+          "id": "SP.WUS.OPH",
+          "longLbl": "OPHTHALMOLOGY"
+        },
+        {
+          "id": "SP.WUS.PMM",
+          "longLbl": "Pain Medicine"
+        },
+        {
+          "id": "SP.WUS.SP",
+          "longLbl": "SELECTIVE PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.129",
+          "longLbl": "Hemophilia Treatment Center"
+        },
+        {
+          "id": "SP.WUS.100",
+          "longLbl": "Long-term Acute Care"
+        },
+        {
+          "id": "SP.WUS.102",
+          "longLbl": "Medical Group"
+        },
+        {
+          "id": "SP.WUS.103",
+          "longLbl": "Nursing Home"
+        },
+        {
+          "id": "SP.WUS.107",
+          "longLbl": "Childrens"
+        },
+        {
+          "id": "SP.WUS.108",
+          "longLbl": "Critical Access"
+        },
+        {
+          "id": "SP.WUS.109",
+          "longLbl": "Long-Term Acute"
+        },
+        {
+          "id": "SP.WUS.115",
+          "longLbl": "Medicare"
+        },
+        {
+          "id": "SP.WUS.117",
+          "longLbl": "Mammography"
+        },
+        {
+          "id": "SP.WUS.118",
+          "longLbl": "MR"
+        },
+        {
+          "id": "SP.WUS.119",
+          "longLbl": "Multi-modality"
+        },
+        {
+          "id": "SP.WUS.216",
+          "longLbl": "Preferred Provider Organization (PPO)"
+        },
+        {
+          "id": "SP.WUS.225",
+          "longLbl": "Student Health Center"
+        },
+        {
+          "id": "SP.WUS.228",
+          "longLbl": "Central Fill"
+        },
+        {
+          "id": "SP.WUS.230",
+          "longLbl": "Nuclear Pharmacy"
+        },
+        {
+          "id": "SP.WUS.234",
+          "longLbl": "HMO"
+        },
+        {
+          "id": "SP.WUS.243",
+          "longLbl": "Compounding"
+        },
+        {
+          "id": "SP.WUS.245",
+          "longLbl": "US Navy Fleet Ship"
+        },
+        {
+          "id": "SP.WUS.246",
+          "longLbl": "Birthing Center"
+        },
+        {
+          "id": "SP.WUS.249",
+          "longLbl": "Home Dialysis"
+        },
+        {
+          "id": "SP.WUS.251",
+          "longLbl": "Professional Association"
+        },
+        {
+          "id": "SP.WUS.256",
+          "longLbl": "Federal"
+        },
+        {
+          "id": "SP.WUS.257",
+          "longLbl": "Private"
+        },
+        {
+          "id": "SP.WUS.265",
+          "longLbl": "Education"
+        },
+        {
+          "id": "SP.WUS.266",
+          "longLbl": "Mobile Clinic"
+        },
+        {
+          "id": "SP.WUS.A",
+          "longLbl": "ALLERGY"
+        },
+        {
+          "id": "SP.WUS.ACA",
+          "longLbl": "ADULT CARDIOTHORACIC ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.ACU",
+          "longLbl": "Acupuncture"
+        },
+        {
+          "id": "SP.WUS.ADD",
+          "longLbl": "Addiction Medicine"
+        },
+        {
+          "id": "SP.WUS.ADL",
+          "longLbl": "ADOLESCENT MEDICINE (PEDIATRICS)"
+        },
+        {
+          "id": "SP.WUS.ADO",
+          "longLbl": "Adolescent Medicine"
+        },
+        {
+          "id": "SP.WUS.ADP",
+          "longLbl": "ADDICTION PSYCHIATRY"
+        },
+        {
+          "id": "SP.WUS.AER",
+          "longLbl": "Aerospace Medicine"
+        },
+        {
+          "id": "SP.WUS.AI",
+          "longLbl": "ALLERGY & IMMUNOLOGY"
+        },
+        {
+          "id": "SP.WUS.ALI",
+          "longLbl": "CLINICAL LAB IMMUNOLOGY (ALR & IMM)"
+        },
+        {
+          "id": "SP.WUS.ALTH",
+          "longLbl": "ALTERNATE THERAPY"
+        },
+        {
+          "id": "SP.WUS.AM",
+          "longLbl": "AEROSPACE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.AMF",
+          "longLbl": "Adolescent Medicine (Family Practice)"
+        },
+        {
+          "id": "SP.WUS.AMI",
+          "longLbl": "ADOLESCENT MEDICINE (INTERNAL MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.AN",
+          "longLbl": "ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.ANA",
+          "longLbl": "ANESTHESIA ASSISTANT"
+        },
+        {
+          "id": "SP.WUS.ANCI",
+          "longLbl": "ANCILLARY SERVICES"
+        },
+        {
+          "id": "SP.WUS.APM",
+          "longLbl": "PAIN MEDICINE (ANESTHESIOLOGY)"
+        },
+        {
+          "id": "SP.WUS.ARN",
+          "longLbl": "ADVANCED REGISTERED NURSE"
+        },
+        {
+          "id": "SP.WUS.AS",
+          "longLbl": "ABDOMINAL SURGERY"
+        },
+        {
+          "id": "SP.WUS.ASO",
+          "longLbl": "Advanced Surgical Oncology"
+        },
+        {
+          "id": "SP.WUS.ATP",
+          "longLbl": "ANATOMIC PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.AUD",
+          "longLbl": "AUDIOLOGY"
+        },
+        {
+          "id": "SP.WUS.BBK",
+          "longLbl": "BLOOD BANKING/TRANSFUSION MEDICINE"
+        },
+        {
+          "id": "SP.WUS.BIP",
+          "longLbl": "BRAIN INJURY MEDICINE (PHYS MED & REHAB)"
+        },
+        {
+          "id": "SP.WUS.CAP",
+          "longLbl": "CHILD ABUSE PEDIATRICS"
+        },
+        {
+          "id": "SP.WUS.CCM",
+          "longLbl": "CRITICAL CARE MEDICINE (IM)"
+        },
+        {
+          "id": "SP.WUS.CD",
+          "longLbl": "CARDIOVASCULAR DISEASE"
+        },
+        {
+          "id": "SP.WUS.CDS",
+          "longLbl": "CARDIOVASCULAR SURGERY"
+        },
+        {
+          "id": "SP.WUS.CHN",
+          "longLbl": "CHILD NEUROLOGY"
+        },
+        {
+          "id": "SP.WUS.CHR",
+          "longLbl": "Chiropractic Medicine"
+        },
+        {
+          "id": "SP.WUS.CHS",
+          "longLbl": "CONGENITAL CARDIAC SURGERY (THORACIC)"
+        },
+        {
+          "id": "SP.WUS.CHWA",
+          "longLbl": "Community Health Advocate"
+        },
+        {
+          "id": "SP.WUS.CID",
+          "longLbl": "CLINICAL INFORMATICS (PED)"
+        },
+        {
+          "id": "SP.WUS.CIF",
+          "longLbl": "CLINICAL INFORMATICS (FM)"
+        },
+        {
+          "id": "SP.WUS.CIM",
+          "longLbl": "CLINICAL INFORMATICS (PREVENTIVE MED)"
+        },
+        {
+          "id": "SP.WUS.CIP",
+          "longLbl": "CLINICAL INFORMATICS (PATHOLOGY)"
+        },
+        {
+          "id": "SP.WUS.CLI",
+          "longLbl": "CLINICAL INFORMATICS (IM)"
+        },
+        {
+          "id": "SP.WUS.CLP",
+          "longLbl": "CLINICAL PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.CMG",
+          "longLbl": "CLINICAL MOLECULAR GENETICS"
+        },
+        {
+          "id": "SP.WUS.CN",
+          "longLbl": "CLINICAL NEUROPHYSIOLOGY"
+        },
+        {
+          "id": "SP.WUS.CNA",
+          "longLbl": "CERTIFIED NURSE ANESTHETIST"
+        },
+        {
+          "id": "SP.WUS.CRP",
+          "longLbl": "CHIROPRACTIC"
+        },
+        {
+          "id": "SP.WUS.CRS",
+          "longLbl": "COLON & RECTAL SURGERY"
+        },
+        {
+          "id": "SP.WUS.CSW",
+          "longLbl": "CLINICAL SOCIAL WORKER"
+        },
+        {
+          "id": "SP.WUS.CTR",
+          "longLbl": "CARDIOTHORACIC RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.CTS",
+          "longLbl": "CARDIOTHORACIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.D",
+          "longLbl": "DERMATOLOGY"
+        },
+        {
+          "id": "SP.WUS.DBP",
+          "longLbl": "DEVELOPMENTAL/BEHAVIORAL PEDIATRICS"
+        },
+        {
+          "id": "SP.WUS.DBT",
+          "longLbl": "Diabetology"
+        },
+        {
+          "id": "SP.WUS.DDS",
+          "longLbl": "General Dentistry"
+        },
+        {
+          "id": "SP.WUS.DGP",
+          "longLbl": "DENTIST"
+        },
+        {
+          "id": "SP.WUS.DLI",
+          "longLbl": "Diagnostic Laboratory Immunology"
+        },
+        {
+          "id": "SP.WUS.DMP",
+          "longLbl": "DERMATOPATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.DMT",
+          "longLbl": "Dermatopathology"
+        },
+        {
+          "id": "SP.WUS.DNAN",
+          "longLbl": "DENTISTRY/ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.DNED",
+          "longLbl": "DENTISTRY/ENDODONTICS"
+        },
+        {
+          "id": "SP.WUS.DNN",
+          "longLbl": "DIAGNOSTIC RADIOLOGY/NUCLEAR MEDICINE"
+        },
+        {
+          "id": "SP.WUS.DNPD",
+          "longLbl": "DENTISTRY/PEDODONTICS"
+        },
+        {
+          "id": "SP.WUS.DNPR",
+          "longLbl": "DENTISTRY/PERIODONTICS"
+        },
+        {
+          "id": "SP.WUS.DNT",
+          "longLbl": "Oral & Maxillofacial Surgery"
+        },
+        {
+          "id": "SP.WUS.DNTR",
+          "longLbl": "REGISTERED DIETICIAN"
+        },
+        {
+          "id": "SP.WUS.DRD",
+          "longLbl": "Diagnostic Radiology"
+        },
+        {
+          "id": "SP.WUS.ED",
+          "longLbl": "Endodontics"
+        },
+        {
+          "id": "SP.WUS.EFM",
+          "longLbl": "Emergency Medicine/Family Medicine"
+        },
+        {
+          "id": "SP.WUS.EM",
+          "longLbl": "EMERGENCY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.EP",
+          "longLbl": "EPIDEMIOLOGY"
+        },
+        {
+          "id": "SP.WUS.ESN",
+          "longLbl": "ENDOVASCULAR SURGICAL NEURORADIOLOGY (R)"
+        },
+        {
+          "id": "SP.WUS.ETX",
+          "longLbl": "MEDICAL TOXICOLOGY (EMERGENCY MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.FM",
+          "longLbl": "FAMILY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.FMP",
+          "longLbl": "Preventive Medicine (Family Medicine)"
+        },
+        {
+          "id": "SP.WUS.FPR",
+          "longLbl": "FEMALE PELVIC MED & RECONSTRUCTIVE SURG"
+        },
+        {
+          "id": "SP.WUS.FPS",
+          "longLbl": "FACIAL PLASTIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.FSM",
+          "longLbl": "SPORTS MEDICINE (FAMILY MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.GAS",
+          "longLbl": "Gastroenterology"
+        },
+        {
+          "id": "SP.WUS.GER",
+          "longLbl": "Geriatric Medicine/Elderly Care"
+        },
+        {
+          "id": "SP.WUS.GO",
+          "longLbl": "GYNECOLOGICAL ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.GP",
+          "longLbl": "GENERAL PRACTICE"
+        },
+        {
+          "id": "SP.WUS.GS",
+          "longLbl": "GENERAL SURGERY"
+        },
+        {
+          "id": "SP.WUS.HHPC",
+          "longLbl": "HOME HEALTH/PERSONAL CARE"
+        },
+        {
+          "id": "SP.WUS.HO",
+          "longLbl": "HEMATOLOGY/ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.HPD",
+          "longLbl": "HOSPICE & PALLIATIVE MED (RADIOLOGY)"
+        },
+        {
+          "id": "SP.WUS.HPF",
+          "longLbl": "HOSPICE & PALLIATIVE MED (FAMILY MED)"
+        },
+        {
+          "id": "SP.WUS.HPI",
+          "longLbl": "HOSPICE & PALLIATIVE MED (INTERNAL MED)"
+        },
+        {
+          "id": "SP.WUS.HPM",
+          "longLbl": "HOSPICE & PALLIATIVE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.HPN",
+          "longLbl": "HOSPICE & PALLIATIVE MED (PSYCH & NEURO)"
+        },
+        {
+          "id": "SP.WUS.HPO",
+          "longLbl": "HOSPICE & PALLIATIVE MED (OB/GYN)"
+        },
+        {
+          "id": "SP.WUS.HPR",
+          "longLbl": "HOSPICE & PALLIATIVE MED (PM & REHAB)"
+        },
+        {
+          "id": "SP.WUS.HS",
+          "longLbl": "HAND SURGERY"
+        },
+        {
+          "id": "SP.WUS.HSP",
+          "longLbl": "HAND SURGERY (PLASTIC SURGERY)"
+        },
+        {
+          "id": "SP.WUS.HSS",
+          "longLbl": "HAND SURGERY (SURGERY)"
+        },
+        {
+          "id": "SP.WUS.ICA",
+          "longLbl": "Interventional Cardiology"
+        },
+        {
+          "id": "SP.WUS.ID",
+          "longLbl": "INFECTIOUS DISEASE"
+        },
+        {
+          "id": "SP.WUS.IG",
+          "longLbl": "IMMUNOLOGY"
+        },
+        {
+          "id": "SP.WUS.ILI",
+          "longLbl": "CLINICAL & LABORATORY IMMUNOLOGY (IM)"
+        },
+        {
+          "id": "SP.WUS.IM",
+          "longLbl": "INTERNAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.IMD",
+          "longLbl": "Internal Medicine/Dermatology"
+        },
+        {
+          "id": "SP.WUS.IMG",
+          "longLbl": "GERIATRIC MEDICINE (INTERNAL MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.IMN",
+          "longLbl": "Internal Medicine/Neurology"
+        },
+        {
+          "id": "SP.WUS.IMP",
+          "longLbl": "Internal Medicine/Psychiatry"
+        },
+        {
+          "id": "SP.WUS.INF",
+          "longLbl": "Infectious Disease"
+        },
+        {
+          "id": "SP.WUS.INT",
+          "longLbl": "Internal Medicine"
+        },
+        {
+          "id": "SP.WUS.LM",
+          "longLbl": "LEGAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.MBG",
+          "longLbl": "Medical Biochemical Genetics"
+        },
+        {
+          "id": "SP.WUS.MDP",
+          "longLbl": "MEDICAL PHYSICS (RADIOLOGY)"
+        },
+        {
+          "id": "SP.WUS.MEM",
+          "longLbl": "INTERNAL MEDICINE/EMERGENCY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.MFM",
+          "longLbl": "MATERNAL & FETAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.MG",
+          "longLbl": "MEDICAL GENETICS"
+        },
+        {
+          "id": "SP.WUS.MGG",
+          "longLbl": "MOLECULAR GENETIC PATHOLOGY (MED GEN)"
+        },
+        {
+          "id": "SP.WUS.MGM",
+          "longLbl": "MEDICAL GENETICS/GENOMICS"
+        },
+        {
+          "id": "SP.WUS.MGP",
+          "longLbl": "MOLECULAR GENETIC PATHOLOGY (PATHOLOGY)"
+        },
+        {
+          "id": "SP.WUS.MHCP",
+          "longLbl": "MILITARY HEALTH CARE PROVIDER"
+        },
+        {
+          "id": "SP.WUS.MP",
+          "longLbl": "INTERNAL MEDICINE/PSYCHIATRY"
+        },
+        {
+          "id": "SP.WUS.MPD",
+          "longLbl": "INTERNAL MEDICINE/PEDIATRICS"
+        },
+        {
+          "id": "SP.WUS.MPH",
+          "longLbl": "Public Health & General Preventive Med"
+        },
+        {
+          "id": "SP.WUS.MSR",
+          "longLbl": "MUSCULOSKELETAL RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.MXR",
+          "longLbl": "Maxillofacial Radiology"
+        },
+        {
+          "id": "SP.WUS.NA",
+          "longLbl": "NOT APPLICABLE"
+        },
+        {
+          "id": "SP.WUS.NC",
+          "longLbl": "NUCLEAR CARDIOLOGY"
+        },
+        {
+          "id": "SP.WUS.NCC",
+          "longLbl": "CRITICAL CARE MED (NEUROLOGICAL SURGERY)"
+        },
+        {
+          "id": "SP.WUS.ND",
+          "longLbl": "NATUROPATHIC DOCTOR"
+        },
+        {
+          "id": "SP.WUS.NEO",
+          "longLbl": "Neonatalogy"
+        },
+        {
+          "id": "SP.WUS.NER",
+          "longLbl": "Neuroradiology"
+        },
+        {
+          "id": "SP.WUS.NEU",
+          "longLbl": "Neurology"
+        },
+        {
+          "id": "SP.WUS.NIC",
+          "longLbl": "Neurological Critical Care"
+        },
+        {
+          "id": "SP.WUS.NMD",
+          "longLbl": "Neuromuscular Disorders"
+        },
+        {
+          "id": "SP.WUS.NMN",
+          "longLbl": "NEUROMUSCULAR MEDICINE (NEUROLOGY)"
+        },
+        {
+          "id": "SP.WUS.NMP",
+          "longLbl": "NEUROMUSCULAR MEDICINE (PM & REHAB)"
+        },
+        {
+          "id": "SP.WUS.NO",
+          "longLbl": "NEUROTOLOGY (OTOLARYNGOLOGY)"
+        },
+        {
+          "id": "SP.WUS.NPM",
+          "longLbl": "NEONATAL-PERINATAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.NPR",
+          "longLbl": "Neurological Rehabilitation"
+        },
+        {
+          "id": "SP.WUS.NRA",
+          "longLbl": "Nuclear Radiology"
+        },
+        {
+          "id": "SP.WUS.NRN",
+          "longLbl": "Neurology/Diag Radiology/Neuroradiology"
+        },
+        {
+          "id": "SP.WUS.NS",
+          "longLbl": "NEUROLOGICAL SURGERY"
+        },
+        {
+          "id": "SP.WUS.NSG",
+          "longLbl": "Neurological Surgery"
+        },
+        {
+          "id": "SP.WUS.NSP",
+          "longLbl": "PEDIATRIC SURGERY (NEUROLOGY)"
+        },
+        {
+          "id": "SP.WUS.NUC",
+          "longLbl": "Nuclear Medicine"
+        },
+        {
+          "id": "SP.WUS.NUP",
+          "longLbl": "Neuropsychiatry"
+        },
+        {
+          "id": "SP.WUS.NUR",
+          "longLbl": "Nursing"
+        },
+        {
+          "id": "SP.WUS.OBG",
+          "longLbl": "OBSTETRICS & GYNECOLOGY"
+        },
+        {
+          "id": "SP.WUS.OCC",
+          "longLbl": "CRITICAL CARE MEDICINE (OB/GYN)"
+        },
+        {
+          "id": "SP.WUS.OCTA",
+          "longLbl": "OCCUPATIONAL THERAPY - ASSISTANT"
+        },
+        {
+          "id": "SP.WUS.OMN",
+          "longLbl": "Osteopathic Neuromusculoskeletal Medicine"
+        },
+        {
+          "id": "SP.WUS.ONC",
+          "longLbl": "Oncology/Hematology"
+        },
+        {
+          "id": "SP.WUS.ONL",
+          "longLbl": "Oncology"
+        },
+        {
+          "id": "SP.WUS.OPR",
+          "longLbl": "Ophthalmic Plastic & Reconstructive Surgery"
+        },
+        {
+          "id": "SP.WUS.OPT",
+          "longLbl": "OPTOMETRIST"
+        },
+        {
+          "id": "SP.WUS.ORC",
+          "longLbl": "Orthopaedic Reconstructive Surgery"
+        },
+        {
+          "id": "SP.WUS.ORP",
+          "longLbl": "Oral & Maxillofacial Pathology"
+        },
+        {
+          "id": "SP.WUS.ORT",
+          "longLbl": "ORTHOTICS"
+        },
+        {
+          "id": "SP.WUS.OSN",
+          "longLbl": "Orthopaedic Spinal Surgery"
+        },
+        {
+          "id": "SP.WUS.OSS",
+          "longLbl": "ORTHOPEDIC SURGERY OF THE SPINE"
+        },
+        {
+          "id": "SP.WUS.OT",
+          "longLbl": "OTOLOGY"
+        },
+        {
+          "id": "SP.WUS.OTH",
+          "longLbl": "Other Specialty"
+        },
+        {
+          "id": "SP.WUS.OTO",
+          "longLbl": "OTOLARYNGOLOGY"
+        },
+        {
+          "id": "SP.WUS.P",
+          "longLbl": "PSYCHIATRY"
+        },
+        {
+          "id": "SP.WUS.PA",
+          "longLbl": "CLINICAL PHARMACOLOGY"
+        },
+        {
+          "id": "SP.WUS.PCH",
+          "longLbl": "CHEMICAL PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.PCP",
+          "longLbl": "CYTOPATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDI",
+          "longLbl": "PEDIATRIC INFECTIOUS DISEASE"
+        },
+        {
+          "id": "SP.WUS.PDM",
+          "longLbl": "Pediatric Dermatology"
+        },
+        {
+          "id": "SP.WUS.PDN",
+          "longLbl": "PEDIATRICS/ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDP",
+          "longLbl": "PEDIATRIC PULMONOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDR",
+          "longLbl": "PEDIATRIC RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDS",
+          "longLbl": "PEDIATRIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.PDT",
+          "longLbl": "MEDICAL TOXICOLOGY (PEDIATRICS)"
+        },
+        {
+          "id": "SP.WUS.PE",
+          "longLbl": "PEDIATRIC EMERGENCY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.PED",
+          "longLbl": "Pediatrics"
+        },
+        {
+          "id": "SP.WUS.PEER",
+          "longLbl": "Peer Support Specialist"
+        },
+        {
+          "id": "SP.WUS.PERF",
+          "longLbl": "PERFUSIONIST"
+        },
+        {
+          "id": "SP.WUS.PFP",
+          "longLbl": "FORENSIC PSYCHIATRY"
+        },
+        {
+          "id": "SP.WUS.PG",
+          "longLbl": "PEDIATRIC GASTROENTEROLOGY"
+        },
+        {
+          "id": "SP.WUS.PHA",
+          "longLbl": "PHYSICIAN ASSISTANT"
+        },
+        {
+          "id": "SP.WUS.PHE",
+          "longLbl": "Pediatric Hospital Medicine (Pediatrics)"
+        },
+        {
+          "id": "SP.WUS.PHI",
+          "longLbl": "PHARMACIST INTERN"
+        },
+        {
+          "id": "SP.WUS.PHL",
+          "longLbl": "PHLEBOLOGY"
+        },
+        {
+          "id": "SP.WUS.PHM",
+          "longLbl": "PHARMACEUTICAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.PHO",
+          "longLbl": "PEDIATRIC HEMATOLOGY/ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.PHP",
+          "longLbl": "PUBLIC HEALTH & GENERAL PREVENTIVE MED"
+        },
+        {
+          "id": "SP.WUS.PHR",
+          "longLbl": "PHARMACIST"
+        },
+        {
+          "id": "SP.WUS.PHT",
+          "longLbl": "PHARMACY TECHNICIAN"
+        },
+        {
+          "id": "SP.WUS.PLM",
+          "longLbl": "PALLIATIVE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.PM",
+          "longLbl": "PHYSICAL MEDICINE & REHABILITATION"
+        },
+        {
+          "id": "SP.WUS.PMN",
+          "longLbl": "PAIN MEDICINE (NEUROLOGY)"
+        },
+        {
+          "id": "SP.WUS.PMP",
+          "longLbl": "Pediatric Physical Medicine & Rehabilitation"
+        },
+        {
+          "id": "SP.WUS.PO",
+          "longLbl": "PEDIATRIC OPHTHALMOLOGY"
+        },
+        {
+          "id": "SP.WUS.PODA",
+          "longLbl": "PODIATRIST - ASSISTANT"
+        },
+        {
+          "id": "SP.WUS.POP",
+          "longLbl": "Pediatric Ophthalmology"
+        },
+        {
+          "id": "SP.WUS.PPR",
+          "longLbl": "PEDIATRIC RHEUMATOLOGY"
+        },
+        {
+          "id": "SP.WUS.PRD",
+          "longLbl": "PROCEDURAL DERMATOLOGY"
+        },
+        {
+          "id": "SP.WUS.PRM",
+          "longLbl": "PEDIATRIC REHABILITATION MEDICINE"
+        },
+        {
+          "id": "SP.WUS.PRO",
+          "longLbl": "PROCTOLOGY"
+        },
+        {
+          "id": "SP.WUS.PRS",
+          "longLbl": "SPORTS MEDICINE (PM & REHAB)"
+        },
+        {
+          "id": "SP.WUS.PSH",
+          "longLbl": "PLASTIC SURGERY WITHIN THE HEAD & NECK"
+        },
+        {
+          "id": "SP.WUS.PSI",
+          "longLbl": "Integrated Plastic Surgery"
+        },
+        {
+          "id": "SP.WUS.PSO",
+          "longLbl": "PLASTIC SURGERY WITHIN HEAD & NECK (OTO)"
+        },
+        {
+          "id": "SP.WUS.PTH",
+          "longLbl": "ANATOMIC/CLINICAL PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.PTP",
+          "longLbl": "PEDIATRIC TRANSPLANT HEPATOLOGY"
+        },
+        {
+          "id": "SP.WUS.PTX",
+          "longLbl": "MEDICAL TOXICOLOGY (PREVENTIVE MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.PUL",
+          "longLbl": "Pulmonary Disease"
+        },
+        {
+          "id": "SP.WUS.PYA",
+          "longLbl": "PSYCHOANALYSIS"
+        },
+        {
+          "id": "SP.WUS.PYM",
+          "longLbl": "Psychosomatic Medicine"
+        },
+        {
+          "id": "SP.WUS.PYN",
+          "longLbl": "PSYCHIATRY/NEUROLOGY"
+        },
+        {
+          "id": "SP.WUS.RDO",
+          "longLbl": "Radiation Oncology"
+        },
+        {
+          "id": "SP.WUS.RIP",
+          "longLbl": "Radioisotopic Pathology"
+        },
+        {
+          "id": "SP.WUS.RNR",
+          "longLbl": "NEURORADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.RS",
+          "longLbl": "RETINAL SPECIALIST"
+        },
+        {
+          "id": "SP.WUS.SCI",
+          "longLbl": "SPINAL CORD INJURY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.SLP",
+          "longLbl": "Sleep Medicine"
+        },
+        {
+          "id": "SP.WUS.SMI",
+          "longLbl": "Sleep Medicine (Internal Medicine)"
+        },
+        {
+          "id": "SP.WUS.SMK",
+          "longLbl": "Smoking Cessation"
+        },
+        {
+          "id": "SP.WUS.SMP",
+          "longLbl": "Sleep Medicine (Pediatrics)"
+        },
+        {
+          "id": "SP.WUS.STDN",
+          "longLbl": "STUDENT, HEALTH CARE"
+        },
+        {
+          "id": "SP.WUS.TCHA",
+          "longLbl": "TECHNOLOGIST - AUDIOLOGY/SPEECH/LANGUAGE"
+        },
+        {
+          "id": "SP.WUS.TCHH",
+          "longLbl": "TECHNOLOGIST - HEALTH INFORMATION"
+        },
+        {
+          "id": "SP.WUS.TCHO",
+          "longLbl": "SPECIALIST/TECHNOLOGIST/TECHNICIAN-OTHER"
+        },
+        {
+          "id": "SP.WUS.TCHR",
+          "longLbl": "TECHNOLOGIST - RADIOLOGIC"
+        },
+        {
+          "id": "SP.WUS.TCHV",
+          "longLbl": "TECHNOLOGIST - VISION"
+        },
+        {
+          "id": "SP.WUS.THP",
+          "longLbl": "TRANSPLANT HEPATOLOGY (IM)"
+        },
+        {
+          "id": "SP.WUS.THR",
+          "longLbl": "Therapeutic Radiology"
+        },
+        {
+          "id": "SP.WUS.THS",
+          "longLbl": "Thoracic Surgery"
+        },
+        {
+          "id": "SP.WUS.TRA",
+          "longLbl": "Transplant Surgery"
+        },
+        {
+          "id": "SP.WUS.TRS",
+          "longLbl": "TRAUMA SURGERY"
+        },
+        {
+          "id": "SP.WUS.TSI",
+          "longLbl": "Integrated Thoracic Surgery"
+        },
+        {
+          "id": "SP.WUS.TY",
+          "longLbl": "TRANSITIONAL YEAR"
+        },
+        {
+          "id": "SP.WUS.UM",
+          "longLbl": "UNDERSEAS MEDICINE (PREVENTIVE MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.UME",
+          "longLbl": "UNDERSEAS MEDICINE (EMERGENCY MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.UP",
+          "longLbl": "PEDIATRIC UROLOGY"
+        },
+        {
+          "id": "SP.WUS.UPR",
+          "longLbl": "FEMALE PELVIC MED & RECON SURGERY (U)"
+        },
+        {
+          "id": "SP.WUS.VAS",
+          "longLbl": "Vascular Surgery"
+        },
+        {
+          "id": "SP.WUS.VET",
+          "longLbl": "VETERINARIAN"
+        },
+        {
+          "id": "SP.WUS.VIR",
+          "longLbl": "VASCULAR & INTERVENTIONAL RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.VSI",
+          "longLbl": "Integrated Vascular Surgery"
+        },
+        {
+          "id": "SP.WUS.141",
+          "longLbl": "Urgent Care"
+        },
+        {
+          "id": "SP.WUS.147",
+          "longLbl": "Home Infusion"
+        },
+        {
+          "id": "SP.WUS.151",
+          "longLbl": "Pharmaceutical Supply"
+        },
+        {
+          "id": "SP.WUS.153",
+          "longLbl": "Service"
+        },
+        {
+          "id": "SP.WUS.158",
+          "longLbl": "CAT Scan"
+        },
+        {
+          "id": "SP.WUS.170",
+          "longLbl": "Audiology"
+        },
+        {
+          "id": "SP.WUS.183",
+          "longLbl": "Alzheimer Care"
+        },
+        {
+          "id": "SP.WUS.211",
+          "longLbl": "Anticoagulation"
+        },
+        {
+          "id": "SP.WUS.213",
+          "longLbl": "Infusion"
+        },
+        {
+          "id": "SP.WUS.BAR",
+          "longLbl": "Bariatrics"
+        },
+        {
+          "id": "SP.WUS.HDS",
+          "longLbl": "Hand Surgery"
+        },
+        {
+          "id": "SP.WUS.MID",
+          "longLbl": "Midwifery"
+        },
+        {
+          "id": "SP.WUS.MN",
+          "longLbl": "Internal Medicine/Neurology"
+        },
+        {
+          "id": "SP.WUS.PME",
+          "longLbl": "Pain Management"
+        },
+        {
+          "id": "SP.WUS.SON",
+          "longLbl": "Surgical Oncology"
+        },
+        {
+          "id": "SP.WUS.SPM",
+          "longLbl": "Sports Medicine"
+        },
+        {
+          "id": "SP.WUS.138",
+          "longLbl": "Primary Care"
+        },
+        {
+          "id": "SP.WUS.104",
+          "longLbl": "Air transport"
+        },
+        {
+          "id": "SP.WUS.105",
+          "longLbl": "Ground transport"
+        },
+        {
+          "id": "SP.WUS.111",
+          "longLbl": "General Acute"
+        },
+        {
+          "id": "SP.WUS.112",
+          "longLbl": "HMO - Group/Staff Model"
+        },
+        {
+          "id": "SP.WUS.113",
+          "longLbl": "HMO - Network"
+        },
+        {
+          "id": "SP.WUS.114",
+          "longLbl": "Independent Physicians Association-IPA"
+        },
+        {
+          "id": "SP.WUS.116",
+          "longLbl": "Point of service-POS"
+        },
+        {
+          "id": "SP.WUS.120",
+          "longLbl": "Ultrasound"
+        },
+        {
+          "id": "SP.WUS.220",
+          "longLbl": "Developmental Disabilities"
+        },
+        {
+          "id": "SP.WUS.221",
+          "longLbl": "Alternate Site"
+        },
+        {
+          "id": "SP.WUS.222",
+          "longLbl": "Physician Buying Organization"
+        },
+        {
+          "id": "SP.WUS.226",
+          "longLbl": "Union Shop"
+        },
+        {
+          "id": "SP.WUS.227",
+          "longLbl": "Workers Compensation"
+        },
+        {
+          "id": "SP.WUS.229",
+          "longLbl": "Chain"
+        },
+        {
+          "id": "SP.WUS.231",
+          "longLbl": "Mail Service"
+        },
+        {
+          "id": "SP.WUS.232",
+          "longLbl": "Closed-door Pharmacy"
+        },
+        {
+          "id": "SP.WUS.233",
+          "longLbl": "Hospital Pharmacy"
+        },
+        {
+          "id": "SP.WUS.247",
+          "longLbl": "Long-term Care"
+        },
+        {
+          "id": "SP.WUS.250",
+          "longLbl": "Retail Walk-in Clinic"
+        },
+        {
+          "id": "SP.WUS.252",
+          "longLbl": "Disease Association"
+        },
+        {
+          "id": "SP.WUS.253",
+          "longLbl": "Healthcare Organization"
+        },
+        {
+          "id": "SP.WUS.254",
+          "longLbl": "Non-healthcare Organization"
+        },
+        {
+          "id": "SP.WUS.255",
+          "longLbl": "State"
+        },
+        {
+          "id": "SP.WUS.258",
+          "longLbl": "Partnership"
+        },
+        {
+          "id": "SP.WUS.263",
+          "longLbl": "Administrative Office"
+        },
+        {
+          "id": "SP.WUS.264",
+          "longLbl": "Purchasing Agent"
+        },
+        {
+          "id": "SP.WUS.ABS",
+          "longLbl": "Abdominal Surgery"
+        },
+        {
+          "id": "SP.WUS.ACC",
+          "longLbl": "ANESTHESIOLOGY CRITICAL CARE MED (EM)"
+        },
+        {
+          "id": "SP.WUS.ACUP",
+          "longLbl": "ACUPUNCTURIST"
+        },
+        {
+          "id": "SP.WUS.AD",
+          "longLbl": "Other Specialty"
+        },
+        {
+          "id": "SP.WUS.ADM",
+          "longLbl": "ADDICTION MEDICINE"
+        },
+        {
+          "id": "SP.WUS.AHF",
+          "longLbl": "ADVANCED HEART FAILURE & TRNSPLNT CARDIO"
+        },
+        {
+          "id": "SP.WUS.AIM",
+          "longLbl": "Allergy & Immunology"
+        },
+        {
+          "id": "SP.WUS.ALL",
+          "longLbl": "Allergy"
+        },
+        {
+          "id": "SP.WUS.ANS",
+          "longLbl": "Anesthesiology"
+        },
+        {
+          "id": "SP.WUS.AR",
+          "longLbl": "ABDOMINAL RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.BHAV",
+          "longLbl": "BEHAVIORAL HEALTH & SOCIAL SERVICES"
+        },
+        {
+          "id": "SP.WUS.BIN",
+          "longLbl": "BRAIN INJURY MEDICINE (PSYCH & NEURO)"
+        },
+        {
+          "id": "SP.WUS.BLB",
+          "longLbl": "Blood Banking/Transfusion Medicine"
+        },
+        {
+          "id": "SP.WUS.BMG",
+          "longLbl": "Clinical Biochemical/Molecular Genetics"
+        },
+        {
+          "id": "SP.WUS.CAR",
+          "longLbl": "Cardiology"
+        },
+        {
+          "id": "SP.WUS.CBG",
+          "longLbl": "CLINICAL BIOCHEMICAL GENETICS"
+        },
+        {
+          "id": "SP.WUS.CCA",
+          "longLbl": "CRITICAL CARE MEDICINE (ANESTHESIOLOGY)"
+        },
+        {
+          "id": "SP.WUS.CCE",
+          "longLbl": "CRITICAL CARE MEDICINE (EM)"
+        },
+        {
+          "id": "SP.WUS.CCG",
+          "longLbl": "CLINICAL CYTOGENETICS"
+        },
+        {
+          "id": "SP.WUS.CCP",
+          "longLbl": "PEDIATRIC CRITICAL CARE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.CCS",
+          "longLbl": "SURGICAL CRITICAL CARE (SURGERY)"
+        },
+        {
+          "id": "SP.WUS.CDIN",
+          "longLbl": "CARDIAC INVASIVE SPECIALIST"
+        },
+        {
+          "id": "SP.WUS.CFP",
+          "longLbl": "Complex Family Planning (Obgyn)"
+        },
+        {
+          "id": "SP.WUS.CFS",
+          "longLbl": "CRANIOFACIAL SURGERY"
+        },
+        {
+          "id": "SP.WUS.CG",
+          "longLbl": "CLINICAL GENETICS"
+        },
+        {
+          "id": "SP.WUS.CHD",
+          "longLbl": "ADULT CONGENITAL HEART DISEASE (IM)"
+        },
+        {
+          "id": "SP.WUS.CHP",
+          "longLbl": "CHILD & ADOLESCENT PSYCHIATRY"
+        },
+        {
+          "id": "SP.WUS.CIE",
+          "longLbl": "CLINICAL INFORMATICS (EM)"
+        },
+        {
+          "id": "SP.WUS.CMCC",
+          "longLbl": "Case Manager"
+        },
+        {
+          "id": "SP.WUS.CNM",
+          "longLbl": "NURSE MIDWIFE"
+        },
+        {
+          "id": "SP.WUS.CNP",
+          "longLbl": "Clinical Neurophysiology"
+        },
+        {
+          "id": "SP.WUS.CNS",
+          "longLbl": "CLINICAL NURSE SPECIALIST"
+        },
+        {
+          "id": "SP.WUS.CPA",
+          "longLbl": "Clinical Pharmacology"
+        },
+        {
+          "id": "SP.WUS.CPP",
+          "longLbl": "PED/PSYCH/CHILD & ADOLESCENT PSYCH"
+        },
+        {
+          "id": "SP.WUS.CS",
+          "longLbl": "Cosmetic Surgery"
+        },
+        {
+          "id": "SP.WUS.DDL",
+          "longLbl": "CLINICAL & LAB DERMATOLOGICAL IMMUNOLOGY"
+        },
+        {
+          "id": "SP.WUS.DEN",
+          "longLbl": "Dentistry"
+        },
+        {
+          "id": "SP.WUS.DER",
+          "longLbl": "Dermatology"
+        },
+        {
+          "id": "SP.WUS.DIA",
+          "longLbl": "DIABETES"
+        },
+        {
+          "id": "SP.WUS.DNHY",
+          "longLbl": "DENTAL HYGIENIST"
+        },
+        {
+          "id": "SP.WUS.DNOR",
+          "longLbl": "DENTISTRY/ORTHODONTICS"
+        },
+        {
+          "id": "SP.WUS.DNPO",
+          "longLbl": "DENTISTRY/PROSTHODONTICS"
+        },
+        {
+          "id": "SP.WUS.DOP",
+          "longLbl": "Osteopathy"
+        },
+        {
+          "id": "SP.WUS.DOR",
+          "longLbl": "Orthodontics"
+        },
+        {
+          "id": "SP.WUS.DPD",
+          "longLbl": "Pediatric Dentistry"
+        },
+        {
+          "id": "SP.WUS.DPE",
+          "longLbl": "Periodontology"
+        },
+        {
+          "id": "SP.WUS.DPH",
+          "longLbl": "Dental Public Health"
+        },
+        {
+          "id": "SP.WUS.DPR",
+          "longLbl": "Prosthodontics"
+        },
+        {
+          "id": "SP.WUS.DR",
+          "longLbl": "DIAGNOSTIC RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.DS",
+          "longLbl": "DERMATOLOGIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.DYS",
+          "longLbl": "Dialysis"
+        },
+        {
+          "id": "SP.WUS.EMA",
+          "longLbl": "Emergency Medicine/Anes"
+        },
+        {
+          "id": "SP.WUS.EMP",
+          "longLbl": "PEDIATRICS/EMERGENCY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.EMR",
+          "longLbl": "Emergency Medicine"
+        },
+        {
+          "id": "SP.WUS.EMS",
+          "longLbl": "EMERGENCY MEDICAL SERVICES"
+        },
+        {
+          "id": "SP.WUS.EMSP",
+          "longLbl": "EMERGENCY MEDICAL SERVICES (OTHER)"
+        },
+        {
+          "id": "SP.WUS.END",
+          "longLbl": "ENDOCRINOLOGY, DIABETES & METABOLISM"
+        },
+        {
+          "id": "SP.WUS.ENR",
+          "longLbl": "ENDOVASCULAR SURGICAL NEURORADIOLOGY (N)"
+        },
+        {
+          "id": "SP.WUS.EPL",
+          "longLbl": "EPILEPSY"
+        },
+        {
+          "id": "SP.WUS.ES",
+          "longLbl": "ENDOVASCULAR SURGICAL NEURORADIOLOGY(NS)"
+        },
+        {
+          "id": "SP.WUS.ESM",
+          "longLbl": "SPORTS MEDICINE (EMERGENCY MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.FLX",
+          "longLbl": "Flex Residents"
+        },
+        {
+          "id": "SP.WUS.FOP",
+          "longLbl": "FORENSIC PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.FOR",
+          "longLbl": "Forensic Psychiatry"
+        },
+        {
+          "id": "SP.WUS.FP",
+          "longLbl": "Family Practice"
+        },
+        {
+          "id": "SP.WUS.FPG",
+          "longLbl": "GERIATRIC MEDICINE (FAMILY MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.FPP",
+          "longLbl": "PSYCHIATRY/FAMILY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.GE",
+          "longLbl": "GASTROENTEROLOGY"
+        },
+        {
+          "id": "SP.WUS.GEN",
+          "longLbl": "Medical Genetics"
+        },
+        {
+          "id": "SP.WUS.GNP",
+          "longLbl": "General Practice"
+        },
+        {
+          "id": "SP.WUS.GNS",
+          "longLbl": "General Surgery"
+        },
+        {
+          "id": "SP.WUS.GPM",
+          "longLbl": "GENERAL PREVENTIVE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.GYN",
+          "longLbl": "GYNECOLOGY"
+        },
+        {
+          "id": "SP.WUS.HEM",
+          "longLbl": "HEMATOLOGY (INTERNAL MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.HEP",
+          "longLbl": "HEPATOLOGY"
+        },
+        {
+          "id": "SP.WUS.HMP",
+          "longLbl": "HEMATOLOGY (PATHOLOGY)"
+        },
+        {
+          "id": "SP.WUS.HNS",
+          "longLbl": "HEAD & NECK SURGERY"
+        },
+        {
+          "id": "SP.WUS.HOS",
+          "longLbl": "HOSPITALIST"
+        },
+        {
+          "id": "SP.WUS.HPA",
+          "longLbl": "HOSPICE & PALLIATIVE MED (ANES)"
+        },
+        {
+          "id": "SP.WUS.HPE",
+          "longLbl": "HOSPICE & PALLIATIVE MED (EMERGENCY MED)"
+        },
+        {
+          "id": "SP.WUS.HPP",
+          "longLbl": "HOSPICE & PALLIATIVE MED (PEDIATRICS)"
+        },
+        {
+          "id": "SP.WUS.HPS",
+          "longLbl": "HOSPICE & PALLIATIVE MED (SURGERY)"
+        },
+        {
+          "id": "SP.WUS.HSO",
+          "longLbl": "HAND SURGERY (ORTHOPEDICS)"
+        },
+        {
+          "id": "SP.WUS.HTM",
+          "longLbl": "Holistic Medicine"
+        },
+        {
+          "id": "SP.WUS.IAN",
+          "longLbl": "CLINICAL INFORMATICS (ANES)"
+        },
+        {
+          "id": "SP.WUS.IC",
+          "longLbl": "INTERVENTIONAL CARDIOLOGY"
+        },
+        {
+          "id": "SP.WUS.ICE",
+          "longLbl": "CLINICAL CARDIAC ELECTROPHYSIOLOGY"
+        },
+        {
+          "id": "SP.WUS.IFP",
+          "longLbl": "INTERNAL MEDICINE/FAMILY MEDICINE"
+        },
+        {
+          "id": "SP.WUS.IMA",
+          "longLbl": "INTERNAL MEDICINE/ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.IMM",
+          "longLbl": "Immunology"
+        },
+        {
+          "id": "SP.WUS.IPM",
+          "longLbl": "INTERNAL MEDICINE/PREVENTIVE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.IRI",
+          "longLbl": "INTERVENTIONAL RADIOLOGY-INTEGRATED"
+        },
+        {
+          "id": "SP.WUS.ISM",
+          "longLbl": "SPORTS MEDICINE (INTERNAL MEDICINE)"
+        },
+        {
+          "id": "SP.WUS.LPN",
+          "longLbl": "LICENSED PRACTICAL NURSE"
+        },
+        {
+          "id": "SP.WUS.LVN",
+          "longLbl": "LICENSED VOCATIONAL NURSE"
+        },
+        {
+          "id": "SP.WUS.MDM",
+          "longLbl": "MEDICAL MANAGEMENT"
+        },
+        {
+          "id": "SP.WUS.MEST",
+          "longLbl": "MEDICAL ESTHETICIAN"
+        },
+        {
+          "id": "SP.WUS.MPM",
+          "longLbl": "Internal Med/Physical Med & Rehab"
+        },
+        {
+          "id": "SP.WUS.MSTH",
+          "longLbl": "MASSAGE THERAPY"
+        },
+        {
+          "id": "SP.WUS.MUL",
+          "longLbl": "Multi Specialty"
+        },
+        {
+          "id": "SP.WUS.N",
+          "longLbl": "NEUROLOGY"
+        },
+        {
+          "id": "SP.WUS.NCO",
+          "longLbl": "Neurological Oncology"
+        },
+        {
+          "id": "SP.WUS.NDN",
+          "longLbl": "NEURODEV DISABILITIES (PSYCH & NEURO)"
+        },
+        {
+          "id": "SP.WUS.NDP",
+          "longLbl": "NEURODEV DISABILITIES (PED)"
+        },
+        {
+          "id": "SP.WUS.NEP",
+          "longLbl": "NEPHROLOGY"
+        },
+        {
+          "id": "SP.WUS.NM",
+          "longLbl": "NUCLEAR MEDICINE"
+        },
+        {
+          "id": "SP.WUS.NP",
+          "longLbl": "NEUROPATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.NPT",
+          "longLbl": "Neuropathology"
+        },
+        {
+          "id": "SP.WUS.NR",
+          "longLbl": "NUCLEAR RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.NRCC",
+          "longLbl": "NEUROCRITICAL CARE (PSYCH & NEURO)"
+        },
+        {
+          "id": "SP.WUS.NRP",
+          "longLbl": "NURSE PRACTITIONER"
+        },
+        {
+          "id": "SP.WUS.NTR",
+          "longLbl": "NUTRITION"
+        },
+        {
+          "id": "SP.WUS.NUTR",
+          "longLbl": "NUTRITIONIST"
+        },
+        {
+          "id": "SP.WUS.OAN",
+          "longLbl": "OBSTETRIC ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.OAR",
+          "longLbl": "ADULT RECONSTRUCTIVE ORTHOPEDICS"
+        },
+        {
+          "id": "SP.WUS.OBS",
+          "longLbl": "OBSTETRICS"
+        },
+        {
+          "id": "SP.WUS.OCCT",
+          "longLbl": "OCCUPATIONAL THERAPY"
+        },
+        {
+          "id": "SP.WUS.OCM",
+          "longLbl": "Occupational Medicine"
+        },
+        {
+          "id": "SP.WUS.OFA",
+          "longLbl": "FOOT & ANKLE, ORTHOPEDICS"
+        },
+        {
+          "id": "SP.WUS.OM",
+          "longLbl": "OCCUPATIONAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.OMF",
+          "longLbl": "ORAL & MAXILLOFACIAL SURGERY"
+        },
+        {
+          "id": "SP.WUS.OMM",
+          "longLbl": "OSTEOPATHIC MANIPULATIVE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.OMO",
+          "longLbl": "MUSCULOSKELETAL ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.ON",
+          "longLbl": "MEDICAL ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.ONM",
+          "longLbl": "OSTEOPATHIC NEUROMUSCULOSKELETAL MEDICINE"
+        },
+        {
+          "id": "SP.WUS.ONO",
+          "longLbl": "Otology/Neurotology"
+        },
+        {
+          "id": "SP.WUS.ORS",
+          "longLbl": "ORTHOPEDIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.OS",
+          "longLbl": "OTHER SPECIALTY"
+        },
+        {
+          "id": "SP.WUS.OSM",
+          "longLbl": "SPORTS MEDICINE (ORTHOPEDIC SURGERY)"
+        },
+        {
+          "id": "SP.WUS.OTR",
+          "longLbl": "ORTHOPEDIC TRAUMA"
+        },
+        {
+          "id": "SP.WUS.PAI",
+          "longLbl": "Pain Medicine"
+        },
+        {
+          "id": "SP.WUS.PAN",
+          "longLbl": "PEDIATRIC ANESTHESIOLOGY"
+        },
+        {
+          "id": "SP.WUS.PCC",
+          "longLbl": "PULMONARY CRITICAL CARE MEDICINE"
+        },
+        {
+          "id": "SP.WUS.PCS",
+          "longLbl": "PEDIATRIC CARDIOTHORACIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.PCT",
+          "longLbl": "Pediatric Critical Care Medicine"
+        },
+        {
+          "id": "SP.WUS.PD",
+          "longLbl": "PEDIATRICS"
+        },
+        {
+          "id": "SP.WUS.PDA",
+          "longLbl": "PEDIATRIC ALLERGY"
+        },
+        {
+          "id": "SP.WUS.PDC",
+          "longLbl": "PEDIATRIC CARDIOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDD",
+          "longLbl": "PEDIATRIC DERMATOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDE",
+          "longLbl": "PEDIATRIC ENDOCRINOLOGY"
+        },
+        {
+          "id": "SP.WUS.PDO",
+          "longLbl": "PEDIATRIC OTOLARYNGOLOGY"
+        },
+        {
+          "id": "SP.WUS.PEM",
+          "longLbl": "PEDIATRIC EMERGENCY MEDICINE (PED)"
+        },
+        {
+          "id": "SP.WUS.PGY",
+          "longLbl": "Pediatric Gastroenterology"
+        },
+        {
+          "id": "SP.WUS.PH",
+          "longLbl": "Public Health & General Preventive Med"
+        },
+        {
+          "id": "SP.WUS.PHTH",
+          "longLbl": "PHYSICAL THERAPY"
+        },
+        {
+          "id": "SP.WUS.PIP",
+          "longLbl": "Immunopathology"
+        },
+        {
+          "id": "SP.WUS.PLI",
+          "longLbl": "CLINICAL & LABORATORY IMMUNOLOGY (PED)"
+        },
+        {
+          "id": "SP.WUS.PLS",
+          "longLbl": "Plastic Surgery"
+        },
+        {
+          "id": "SP.WUS.PMD",
+          "longLbl": "PAIN MEDICINE"
+        },
+        {
+          "id": "SP.WUS.PMD_INV",
+          "longLbl": "Pain Medicine"
+        },
+        {
+          "id": "SP.WUS.PMR",
+          "longLbl": "PAIN MEDICINE (PM & REHAB)"
+        },
+        {
+          "id": "SP.WUS.PN",
+          "longLbl": "PEDIATRIC NEPHROLOGY"
+        },
+        {
+          "id": "SP.WUS.PNP",
+          "longLbl": "Pediatric Nephrology"
+        },
+        {
+          "id": "SP.WUS.POD",
+          "longLbl": "PODIATRIST"
+        },
+        {
+          "id": "SP.WUS.POS",
+          "longLbl": "Pediatric Orthopedic Surgery"
+        },
+        {
+          "id": "SP.WUS.PP",
+          "longLbl": "PEDIATRIC PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.PPA",
+          "longLbl": "Pediatric Pathology"
+        },
+        {
+          "id": "SP.WUS.PPN",
+          "longLbl": "PAIN MEDICINE (PSYCHIATRY)"
+        },
+        {
+          "id": "SP.WUS.PPTA",
+          "longLbl": "PHYSICAL THERAPY - ASSISTANT"
+        },
+        {
+          "id": "SP.WUS.PS",
+          "longLbl": "PLASTIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.PSC",
+          "longLbl": "Psychology"
+        },
+        {
+          "id": "SP.WUS.PSM",
+          "longLbl": "SPORTS MEDICINE (PEDIATRICS)"
+        },
+        {
+          "id": "SP.WUS.PSP",
+          "longLbl": "Plastic Surgery within the Head & Neck"
+        },
+        {
+          "id": "SP.WUS.PSY",
+          "longLbl": "PSYCHOLOGY"
+        },
+        {
+          "id": "SP.WUS.PUD",
+          "longLbl": "PULMONARY DISEASE"
+        },
+        {
+          "id": "SP.WUS.PUR",
+          "longLbl": "Pediatric Urology"
+        },
+        {
+          "id": "SP.WUS.PYG",
+          "longLbl": "GERIATRIC PSYCHIATRY"
+        },
+        {
+          "id": "SP.WUS.R",
+          "longLbl": "RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.RAA",
+          "longLbl": "RGNL ANES-ACUTE PM (ANES)"
+        },
+        {
+          "id": "SP.WUS.RAD",
+          "longLbl": "Radiology"
+        },
+        {
+          "id": "SP.WUS.REN",
+          "longLbl": "REPRODUCTIVE ENDOCRINOLOGY & INFERTILITY"
+        },
+        {
+          "id": "SP.WUS.RGM",
+          "longLbl": "Reproductive Endocrinology & Infertility/Mgm"
+        },
+        {
+          "id": "SP.WUS.RHU",
+          "longLbl": "RHEUMATOLOGY"
+        },
+        {
+          "id": "SP.WUS.RN",
+          "longLbl": "REGISTERED NURSE"
+        },
+        {
+          "id": "SP.WUS.RO",
+          "longLbl": "RADIATION ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.RP",
+          "longLbl": "RADIOLOGICAL PHYSICS"
+        },
+        {
+          "id": "SP.WUS.RPM",
+          "longLbl": "Pediatric Rehabilitation Medicine"
+        },
+        {
+          "id": "SP.WUS.RSTH",
+          "longLbl": "RESPIRATORY THERAPIST"
+        },
+        {
+          "id": "SP.WUS.SM",
+          "longLbl": "Sleep Medicine"
+        },
+        {
+          "id": "SP.WUS.SME",
+          "longLbl": "SLEEP MEDICINE"
+        },
+        {
+          "id": "SP.WUS.SMN",
+          "longLbl": "Sleep Medicine (Psychiatry & Neurology)"
+        },
+        {
+          "id": "SP.WUS.SMO",
+          "longLbl": "Sleep Medicine (Otolaryngology)"
+        },
+        {
+          "id": "SP.WUS.SO",
+          "longLbl": "SURGICAL ONCOLOGY"
+        },
+        {
+          "id": "SP.WUS.SPS",
+          "longLbl": "Surgery/Plastic Surgery"
+        },
+        {
+          "id": "SP.WUS.SRGA",
+          "longLbl": "SURGICAL ASSISTANT"
+        },
+        {
+          "id": "SP.WUS.SUB",
+          "longLbl": "Substance Abuse"
+        },
+        {
+          "id": "SP.WUS.TCHC",
+          "longLbl": "TECHNOLOGIST - CARDIOLOGY/VASCULAR"
+        },
+        {
+          "id": "SP.WUS.TCHD",
+          "longLbl": "TECHNOLOGIST - DENTAL"
+        },
+        {
+          "id": "SP.WUS.TCHP",
+          "longLbl": "TECHNOLOGIST - PATHOLOGY"
+        },
+        {
+          "id": "SP.WUS.TR",
+          "longLbl": "THERAPEUTIC RADIOLOGY"
+        },
+        {
+          "id": "SP.WUS.TRM",
+          "longLbl": "Trauma Surgery"
+        },
+        {
+          "id": "SP.WUS.TS",
+          "longLbl": "THORACIC SURGERY"
+        },
+        {
+          "id": "SP.WUS.TTS",
+          "longLbl": "TRANSPLANT SURGERY"
+        },
+        {
+          "id": "SP.WUS.U",
+          "longLbl": "UROLOGY"
+        },
+        {
+          "id": "SP.WUS.UCM",
+          "longLbl": "Urgent Care Medicine"
+        },
+        {
+          "id": "SP.WUS.UN",
+          "longLbl": "Unspecified Specialty"
+        },
+        {
+          "id": "SP.WUS.URO",
+          "longLbl": "Urology"
+        },
+        {
+          "id": "SP.WUS.US",
+          "longLbl": "UNSPECIFIED"
+        },
+        {
+          "id": "SP.WUS.VM",
+          "longLbl": "VASCULAR MEDICINE"
+        },
+        {
+          "id": "SP.WUS.VN",
+          "longLbl": "VASCULAR NEUROLOGY"
+        },
+        {
+          "id": "SP.WUS.VS",
+          "longLbl": "VASCULAR SURGERY"
+        },
+        {
+          "id": "SP.WUS.WHO",
+          "longLbl": "Wholesaler"
+        }
+      ]
+    }
+  }
+}

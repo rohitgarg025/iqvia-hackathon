@@ -26,17 +26,17 @@
   console.log(specialtyCd);
   var specialtyLabel = specialtyLabelByCode[specialtyCd];
   console.log(specialtyLabel);
-  if (specialtyLabel) {
-    config.entry = {
-      screenName: 'searchNearMe',
-      specialtyCode: specialtyCd,
-   }
-}
-else{
-   config.entry = {
-      screenName:'home'
-   }
-}
+//   if (specialtyLabel) {
+//     config.entry = {
+//       screenName: 'searchNearMe',
+//       specialtyCode: specialtyCd,
+//    }
+// }
+// else{
+//    config.entry = {
+//       screenName:'home'
+//    }
+// }
 
 }
          customElements.whenDefined('hcl-sdk').then(function() {

@@ -1,0 +1,68 @@
+{
+    "activityByID": {
+      "id": "WCAM0000048701",
+      "phone": "780 4616012",
+      "role": {
+        "code": "",
+        "label": ""
+      },
+      "fax": "780 4615442",
+      "webAddress": null,
+      "workplace": {
+        "id": "WCAE00033308",
+        "name": "Surgical Doctors",
+        "address": {
+          "longLabel": "205-3017 66 St NW",
+          "country": "CA",
+          "postalCode": "T6K 4B2",
+          "buildingLabel": "",
+          "county": {
+            "label": "Alberta"
+          },
+          "city": {
+            "label": "Edmonton"
+          },
+          "location": {
+            "lat": 53.4713,
+            "lon": -113.594
+          }
+        }
+      },
+      "individual": {
+        "id": "WCAM00000487",
+        "firstName": "Michael",
+        "lastName": "Chatenay",
+        "middleName": "P",
+        "mailingName": "Dr Michael P Chatenay",
+        "nickname": "",
+        "suffixName": "",
+        "professionalType": {
+          "label": "Physician"
+        },
+        "specialties": [
+          {
+            "code": "SP.WCA.11",
+            "label": "General Surgery"
+          }
+        ],
+        "mainActivity": {
+          "id": "WCAM0000048701",
+          "workplace": {
+            "address": {
+              "longLabel": "205-3017 66 St NW"
+            }
+          }
+        },
+        "otherActivities": [
+          {
+            "id": "WCAM0000048702",
+            "workplace": {
+              "address": {
+                "longLabel": "8440 112 St NW"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,1954 @@
+{
+    "activities": [
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAA0001597701",
+          "individual": {
+            "id": "WCAA00015977",
+            "firstName": "Onzu",
+            "lastName": "Tam",
+            "middleName": "Natasha",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00013433",
+            "address": {
+              "longLabel": "200-2885 Barnet Hwy",
+              "buildingLabel": "",
+              "county": {
+                "label": "British Columbia"
+              },
+              "city": {
+                "label": "Coquitlam"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 49.2778,
+                "lon": -122.816
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000201",
+          "individual": {
+            "id": "WCAD00000002",
+            "firstName": "Michel",
+            "lastName": "Levy",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAH00000732",
+            "address": {
+              "longLabel": "1301 rue Sherbrooke E",
+              "buildingLabel": "",
+              "county": {
+                "label": "Quebec"
+              },
+              "city": {
+                "label": "Montreal"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.5242,
+                "lon": -73.5662
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000303",
+          "individual": {
+            "id": "WCAD00000003",
+            "firstName": "Jean-Pierre",
+            "lastName": "Bedirian",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00053885",
+            "address": {
+              "longLabel": "200-13950 Boul Gouin O",
+              "buildingLabel": "",
+              "county": {
+                "label": "Quebec"
+              },
+              "city": {
+                "label": "Pierrefonds"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.5048,
+                "lon": -73.8413
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000401",
+          "individual": {
+            "id": "WCAD00000004",
+            "firstName": "Nancy",
+            "lastName": "Wassef",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAH00001004",
+            "address": {
+              "longLabel": "88 5E Av",
+              "buildingLabel": "",
+              "county": {
+                "label": "Quebec"
+              },
+              "city": {
+                "label": "Pincourt"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.3813,
+                "lon": -73.9927
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000501",
+          "individual": {
+            "id": "WCAD00000005",
+            "firstName": "Gharan",
+            "lastName": "Mirhosseini",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAH00013666",
+            "address": {
+              "longLabel": "3841 rue Ontario E",
+              "buildingLabel": "",
+              "county": {
+                "label": "Quebec"
+              },
+              "city": {
+                "label": "Montreal"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.5949,
+                "lon": -73.6395
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000601",
+          "individual": {
+            "id": "WCAD00000006",
+            "firstName": "Steven",
+            "lastName": "Smith",
+            "middleName": "R",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044665",
+            "address": {
+              "longLabel": "30 Ragus Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Nova Scotia"
+              },
+              "city": {
+                "label": "Dartmouth"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 44.658,
+                "lon": -63.5433
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000702",
+          "individual": {
+            "id": "WCAD00000007",
+            "firstName": "Kim",
+            "lastName": "Maddison",
+            "middleName": "W",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00063718",
+            "address": {
+              "longLabel": "192-142 South Albion St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Nova Scotia"
+              },
+              "city": {
+                "label": "Amherst"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.812,
+                "lon": -64.1998
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000801",
+          "individual": {
+            "id": "WCAD00000008",
+            "firstName": "Michelle",
+            "lastName": "Zwicker",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044124",
+            "address": {
+              "longLabel": "Main Highway",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Bay Roberts"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.5736,
+                "lon": -53.2855
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000000901",
+          "individual": {
+            "id": "WCAD00000009",
+            "firstName": "Jason",
+            "lastName": "Noel",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044124",
+            "address": {
+              "longLabel": "Main Highway",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Bay Roberts"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.5736,
+                "lon": -53.2855
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001003",
+          "individual": {
+            "id": "WCAD00000010",
+            "firstName": "Steinn",
+            "lastName": "Kristmundsson",
+            "middleName": "E",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00063720",
+            "address": {
+              "longLabel": "16 Goff Ave",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Carbonear"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.7271,
+                "lon": -53.2419
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001101",
+          "individual": {
+            "id": "WCAD00000011",
+            "firstName": "Shane",
+            "lastName": "Roberts",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044303",
+            "address": {
+              "longLabel": "9 First St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Mount Pearl"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.52,
+                "lon": -52.8097
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001301",
+          "individual": {
+            "id": "WCAD00000013",
+            "firstName": "Vinay",
+            "lastName": "Jerath",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044131",
+            "address": {
+              "longLabel": "Conception Bay Hwy",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Holyrood"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.3969,
+                "lon": -53.119
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001401",
+          "individual": {
+            "id": "WCAD00000014",
+            "firstName": "M",
+            "lastName": "Peddle",
+            "middleName": "Terrence",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00032485",
+            "address": {
+              "longLabel": "48 Powell Dr",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Carbonear"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.7295,
+                "lon": -53.232
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001501",
+          "individual": {
+            "id": "WCAD00000015",
+            "firstName": "Shawn",
+            "lastName": "Jacobs",
+            "middleName": "Merril R",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00036493",
+            "address": {
+              "longLabel": "1421 Topsail Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Paradise"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.5336,
+                "lon": -52.8527
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001701",
+          "individual": {
+            "id": "WCAD00000017",
+            "firstName": "Daniel",
+            "lastName": "Greene",
+            "middleName": "J",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044136",
+            "address": {
+              "longLabel": "38 Orcan Dr",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Placentia"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.2457,
+                "lon": -53.9585
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000001902",
+          "individual": {
+            "id": "WCAD00000019",
+            "firstName": "Philip",
+            "lastName": "Keith",
+            "middleName": "D",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00051957",
+            "address": {
+              "longLabel": "237 Majors Path",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.6033,
+                "lon": -52.7371
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002001",
+          "individual": {
+            "id": "WCAD00000020",
+            "firstName": "Margaret",
+            "lastName": "Flynn",
+            "middleName": "T (Rita)",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00011781",
+            "address": {
+              "longLabel": "200-1899 Dunmore Rd SE",
+              "buildingLabel": "",
+              "county": {
+                "label": "Alberta"
+              },
+              "city": {
+                "label": "Medicine Hat"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 50.0227,
+                "lon": -110.667
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002101",
+          "individual": {
+            "id": "WCAD00000021",
+            "firstName": "Joseph",
+            "lastName": "Gamba",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044143",
+            "address": {
+              "longLabel": "30 Church St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Grand Bank"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.1026,
+                "lon": -55.7586
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002201",
+          "individual": {
+            "id": "WCAD00000022",
+            "firstName": "Vincent",
+            "lastName": "Rice",
+            "middleName": "J",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044146",
+            "address": {
+              "longLabel": "201-259 Memorial Dr",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Clarenville"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 48.165,
+                "lon": -53.9668
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002301",
+          "individual": {
+            "id": "WCAD00000023",
+            "firstName": "William",
+            "lastName": "Witherell",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044147",
+            "address": {
+              "longLabel": "108 Columbia Dr",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Marystown"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.166,
+                "lon": -55.1587
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002401",
+          "individual": {
+            "id": "WCAD00000024",
+            "firstName": "Erwin",
+            "lastName": "Davis",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044149",
+            "address": {
+              "longLabel": "2 Thorburn Pl",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Clarenville"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 48.1639,
+                "lon": -53.9677
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002801",
+          "individual": {
+            "id": "WCAD00000028",
+            "firstName": "Meino",
+            "lastName": "Mast",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044338",
+            "address": {
+              "longLabel": "62C Elizabeth Dr",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Gander"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 48.9563,
+                "lon": -54.6086
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000002901",
+          "individual": {
+            "id": "WCAD00000029",
+            "firstName": "Terence",
+            "lastName": "Lynch",
+            "middleName": "G",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044373",
+            "address": {
+              "longLabel": "60 Carmelite Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Grand Falls-Windsor"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 48.9335,
+                "lon": -55.6617
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003001",
+          "individual": {
+            "id": "WCAD00000030",
+            "firstName": "Anne",
+            "lastName": "Hornett",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00007434",
+            "address": {
+              "longLabel": "178-200 West St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St Anthony"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 42.8348,
+                "lon": -80.31
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003101",
+          "individual": {
+            "id": "WCAD00000031",
+            "firstName": "Peter",
+            "lastName": "Hornett",
+            "middleName": "J",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00007434",
+            "address": {
+              "longLabel": "178-200 West St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St Anthony"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 42.8348,
+                "lon": -80.31
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003201",
+          "individual": {
+            "id": "WCAD00000032",
+            "firstName": "Marina",
+            "lastName": "Sexton",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044162",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Norris Point"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 49.5317,
+                "lon": -57.8753
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003501",
+          "individual": {
+            "id": "WCAD00000035",
+            "firstName": "Anthony",
+            "lastName": "McNally",
+            "middleName": "E",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044163",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Pasadena"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 49.0143,
+                "lon": -57.598
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003601",
+          "individual": {
+            "id": "WCAD00000036",
+            "firstName": "Dulach",
+            "lastName": "O'Brien",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044166",
+            "address": {
+              "longLabel": "52 Main St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Channel-Port-Aux-Basques"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.5723,
+                "lon": -59.1374
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003701",
+          "individual": {
+            "id": "WCAD00000037",
+            "firstName": "At",
+            "lastName": "Bhardwaj",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044168",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3194,
+                "lon": -60.21
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000003801",
+          "individual": {
+            "id": "WCAD00000038",
+            "firstName": "Donald",
+            "lastName": "Cowan",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044170",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3194,
+                "lon": -60.21
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004001",
+          "individual": {
+            "id": "WCAD00000040",
+            "firstName": "Kan",
+            "lastName": "Chandrasegaram",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044169",
+            "address": {
+              "longLabel": "2 Bowell St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3088,
+                "lon": -60.3769
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004101",
+          "individual": {
+            "id": "WCAD00000041",
+            "firstName": "Jill",
+            "lastName": "Bulman",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00012791",
+            "address": {
+              "longLabel": "118-150 Chippewa Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Alberta"
+              },
+              "city": {
+                "label": "Sherwood Park"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.5372,
+                "lon": -113.325
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004401",
+          "individual": {
+            "id": "WCAD00000044",
+            "firstName": "John",
+            "lastName": "Dalton",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044170",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3194,
+                "lon": -60.21
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004501",
+          "individual": {
+            "id": "WCAD00000045",
+            "firstName": "Hector",
+            "lastName": "Jothiraj",
+            "middleName": "P",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044176",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3385,
+                "lon": -60.4088
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004601",
+          "individual": {
+            "id": "WCAD00000046",
+            "firstName": "Hemkumar",
+            "lastName": "Gosala",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00024082",
+            "address": {
+              "longLabel": "85A Hamilton River Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.2958,
+                "lon": -60.2975
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004701",
+          "individual": {
+            "id": "WCAD00000047",
+            "firstName": "Abd-Al-Hadi",
+            "lastName": "Kawaiah",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00037899",
+            "address": {
+              "longLabel": "4-420 Boul Wilfrid-Lavigne",
+              "buildingLabel": "",
+              "county": {
+                "label": "Quebec"
+              },
+              "city": {
+                "label": "Gatineau"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.396,
+                "lon": -75.8382
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004801",
+          "individual": {
+            "id": "WCAD00000048",
+            "firstName": "Kalaichelvan",
+            "lastName": "Panchalingam",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044169",
+            "address": {
+              "longLabel": "2 Bowell St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3088,
+                "lon": -60.3769
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004802",
+          "individual": {
+            "id": "WCAD00000048",
+            "firstName": "Kalaichelvan",
+            "lastName": "Panchalingam",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00008604",
+            "address": {
+              "longLabel": "204-3852 Finch Ave E",
+              "buildingLabel": "",
+              "county": {
+                "label": "Ontario"
+              },
+              "city": {
+                "label": "Scarborough"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 43.8131,
+                "lon": -79.2429
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000004901",
+          "individual": {
+            "id": "WCAD00000049",
+            "firstName": "Dhia",
+            "lastName": "Al-Hakak",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00004310",
+            "address": {
+              "longLabel": "202-1919 Riverside Dr",
+              "buildingLabel": "Riverside Professional Centre",
+              "county": {
+                "label": "Ontario"
+              },
+              "city": {
+                "label": "Ottawa"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.3309,
+                "lon": -75.694
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000005001",
+          "individual": {
+            "id": "WCAD00000050",
+            "firstName": "Mark",
+            "lastName": "Zammit",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044170",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3194,
+                "lon": -60.21
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000005101",
+          "individual": {
+            "id": "WCAD00000051",
+            "firstName": "Donald",
+            "lastName": "Trider",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044182",
+            "address": {
+              "longLabel": "",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3194,
+                "lon": -60.21
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000005201",
+          "individual": {
+            "id": "WCAD00000052",
+            "firstName": "Robert",
+            "lastName": "Carneal",
+            "middleName": "Walter",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044169",
+            "address": {
+              "longLabel": "2 Bowell St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.3088,
+                "lon": -60.3769
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000005301",
+          "individual": {
+            "id": "WCAD00000053",
+            "firstName": "Ayhan",
+            "lastName": "Telatar",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044184",
+            "address": {
+              "longLabel": "85 Hamilton River Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Happy Valley-Goose Bay"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 53.2958,
+                "lon": -60.2975
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000005801",
+          "individual": {
+            "id": "WCAD00000058",
+            "firstName": "Charles",
+            "lastName": "Mitchell",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044191",
+            "address": {
+              "longLabel": "1 Carson Ave",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "Wabush"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 52.9067,
+                "lon": -66.8727
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000005901",
+          "individual": {
+            "id": "WCAD00000059",
+            "firstName": "Jill",
+            "lastName": "Dobbin",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044193",
+            "address": {
+              "longLabel": "113-84-86 Elizabeth Ave",
+              "buildingLabel": "Regatta Plaza II",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.5831,
+                "lon": -52.7111
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000006001",
+          "individual": {
+            "id": "WCAD00000060",
+            "firstName": "Neil",
+            "lastName": "Power",
+            "middleName": "L",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044193",
+            "address": {
+              "longLabel": "113-84-86 Elizabeth Ave",
+              "buildingLabel": "Regatta Plaza II",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 47.5831,
+                "lon": -52.7111
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000006101",
+          "individual": {
+            "id": "WCAD00000061",
+            "firstName": "Robert",
+            "lastName": "Furlong",
+            "middleName": "M",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044197",
+            "address": {
+              "longLabel": "305-12 Gleneyre St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.2734,
+                "lon": -66.0641
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000006201",
+          "individual": {
+            "id": "WCAD00000062",
+            "firstName": "Maureen",
+            "lastName": "Lawton",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00017779",
+            "address": {
+              "longLabel": "69 Elizabeth Ave",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.2734,
+                "lon": -66.0641
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000007701",
+          "individual": {
+            "id": "WCAD00000077",
+            "firstName": "David",
+            "lastName": "Williams-Jones",
+            "middleName": "",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00044250",
+            "address": {
+              "longLabel": "203 Lemarchant Rd",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.2734,
+                "lon": -66.0641
+              }
+            }
+          }
+        }
+      },
+      {
+        "distance": 0,
+        "relevance": 0,
+        "activity": {
+          "id": "WCAD0000007801",
+          "individual": {
+            "id": "WCAD00000078",
+            "firstName": "F",
+            "lastName": "McCarthy",
+            "middleName": "Kip",
+            "professionalType": {
+              "label": "Dentist"
+            },
+            "specialties": [
+              {
+                "label": "General Dentistry"
+              }
+            ]
+          },
+          "workplace": {
+            "id": "WCAE00031517",
+            "address": {
+              "longLabel": "162A Water St",
+              "buildingLabel": "",
+              "county": {
+                "label": "Newfoundland and Labrador"
+              },
+              "city": {
+                "label": "St. John's"
+              },
+              "country": "CA",
+              "location": {
+                "lat": 45.2677,
+                "lon": -66.0612
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <script src=https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js></script>
+    <script src=https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js></script>
+    <script>
+        const hclAPI = new HclAPI({
+
+            apiKey: '30017e53647ed21e' // To replace by a working API key // rohit's api key
+
+        });
+
+        function activityfunction() {
+
+
+            const params = {
+
+                first: 50,
+
+                offset: 0,
+
+                country: "ca",
+                specialties: ["SP.WCA.75"]
+
+            };
+
+            hclAPI.activities(params).then(result => {
+
+                // The list of activities
+                testDivElement = document.getElementById('test_div');
+                console.log(result)
+                testDivElement.innerHTML = JSON.stringify(result);
+
+
+            }).catch(err => {
+
+                // An error happened.
+
+            });
+
+        }
+
+        function activityByIDfunction() {
+            const params = {
+
+                id: 'WCAM0000048701',
+
+            };
+
+            hclAPI
+
+                .activityByID(params)
+
+                .then(result => {
+
+                    // The activity instance
+                    // The list of activities
+                    testDivElement = document.getElementById('test_div');
+                    console.log(result)
+                    testDivElement.innerHTML = JSON.stringify(result);
+
+                })
+
+                .catch(err => {
+
+                    // An error happened.
+
+                })
+        }
+
+
+
+
+    </script>
+    <button onclick="activityfunction()"> activityfunction </button>
+    <button onclick="activityByIDfunction()"> activityByIDfunction </button>
+
+    <div id='test_div'></div>
+
+</body>
+
+</html>

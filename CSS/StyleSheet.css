@@ -72,6 +72,8 @@ body{
      
       hcl-sdk {
 
+        --hcl-color-view_bkg: #FFEFD5;
+
         --hcl-color-primary: #FFEFD5;
         
         --hcl-color-secondary: #FFDAD5;

@@ -2,6 +2,7 @@ body{
     padding-top:4.2rem;
     padding-bottom:4.2rem;
     background:rgba(0, 0, 0, 0.76);
+    background-color: #FFDAD5;
     }
     a{
      text-decoration:none !important;
@@ -68,6 +69,17 @@ body{
      }
      #second{display:none;}
 
-     hcl-sdk{
+     
+      hcl-sdk {
+
+        --hcl-color-view_bkg: #FFEFD5;
+
+        --hcl-color-primary: #FFEFD5;
+        
+        --hcl-color-secondary: #FFDAD5;
+
+        --hcl-color-button_bkg: #FFDAD5;
+        
+        }
        
-     }
+    

@@ -74,12 +74,16 @@ body{
 
         --hcl-color-view_bkg: #FFEFD5;
 
-        --hcl-color-primary: #FFEFD5;
+        --hcl-color-primary: #10B981;
         
         --hcl-color-secondary: #FFDAD5;
 
         --hcl-color-button_bkg: #FFDAD5;
         
         }
+
+      .reset :hover{
+          background-color: #10B981;
+      }
        
     

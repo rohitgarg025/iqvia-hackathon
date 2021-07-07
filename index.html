@@ -15,7 +15,8 @@
 
 </head>
 
-<body style="background-color: #FFEFD5;">
+<!-- <body style="background-color: #FFEFD5;"> -->
+  <body style="background-color: #F4F6F6;">
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <!-- HealthAPPy -->
   <!-- header -->
@@ -57,15 +58,18 @@
             var auth2 = gapi.auth2.getAuthInstance();
             auth2.signOut().then(function () {
               console.log('User signed out.');
+              document.getElementById('google_user_name').innerHTML = "";
               alert('User Signed Out Sucessfully'); //test
             });
           }
           function onSignIn(googleUser) {
             var profile = googleUser.getBasicProfile();
             console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-            console.log('Name: ' + profile.getName());
+            var user_name = profile.getName()
+            console.log('Name: ' + user_name);
             console.log('Image URL: ' + profile.getImageUrl());
             console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+            document.getElementById('google_user_name').innerHTML = "Welcome Back " + user_name;
           }
         </script>
       </nav>
@@ -87,7 +91,7 @@
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
           </span> -->
-
+        <div id = "google_user_name"></div>
         <button
           class="shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-red-500 hover:bg-red-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
             href="tel:911" style="margin-left: auto;
@@ -104,72 +108,73 @@
   <script src=https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js></script>
   <script src=https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js></script>
 
-
+  <!-- Prompt Line -->
+  <p class="font-bold mt-12 mb-8 ml-28 text-lg">Find experienced doctors across all specialties</p>
 
   <!-- Nav Bar -->
-  <div class="flex-wrap rounded-lg max-w-5xl mx-auto flex border-2 border-black-500 rounded mb-3 mt-6">
+  <div class="flex-wrap rounded-lg max-w-5xl mx-auto flex border-2 border-black-500 rounded mb-3 mt-12">
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-2 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50">
       <a href="KUCHCHALA.html#sp=SP.WCA.36" style="color:black; margin-left: auto;
-    margin-right: auto;" class="fas fa-virus mx-auto"> </a>
+    margin-right: auto;" class="fas fa-virus fa-5x"> </a>
 
       <span class="mx-auto">Respiratory </span> <span class="mx-auto"> Medicine</span>
     </div>
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-2 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.08" style="color:black; margin-left: auto;
-  margin-right: auto;" class="fas fa-heartbeat mx-auto"> </a>
+  margin-right: auto;" class="fas fa-heartbeat fa-5x"> </a>
 
       <span class="mx-auto">Cardiology</span>
     </div>
 
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.16" style="color:black; margin-left: auto;
-      margin-right: auto;" class="fas fa-allergies mx-auto"> </a>
+      margin-right: auto;" class="fas fa-allergies fa-5x"> </a>
 
       <span class="mx-auto">Dermatology</span>
     </div>
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.01" style="color:black; margin-left: auto;
-      margin-right: auto;" class="fas fa-stethoscope mx-auto"></a>
+      margin-right: auto;" class="fas fa-stethoscope fa-5x"></a>
 
       <span class="mx-auto">General </span> <span class="mx-auto">Physician</span>
     </div>
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col  flex-grow py-1 px-4 focus:ring-2 focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.44" style="color:black; margin-left: auto;margin-right: auto;"
-        class="fas fa-baby mx-auto"> </a>
+        class="fas fa-baby fa-5x"> </a>
 
       <span class="mx-auto">Pediatrics</span>
     </div>
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.PS" style="color:black; margin-left: auto;
-      margin-right: auto;" class="mx-auto fas fa-brain"> </a>
+      margin-right: auto;" class="fas fa-brain fa-5x"> </a>
 
       <span class="mx-auto">Mental</span><span class="mx-auto">Health</span>
     </div>
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.18" style="color:black; margin-left: auto;
-    margin-right: auto;" class="mx-auto fas fa-apple-alt"> </a>
+    margin-right: auto;" class="fas fa-apple-alt fa-5x"> </a>
 
       <span class="mx-auto">Diabetes</span>
     </div>
 
     <div
-      class="group rounded-lg transition duration-700 hover:bg-yellow-100 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
+      class="group rounded-lg transition duration-700 hover:bg-indigo-200 transform hover:-translate-y-1 hover:scale-110 ease-in-out flex justify-center flex-col flex-grow py-1 px-4 focus:ring-2 focus:outline-none focus:ring-black focus:ring-opacity-50 ">
       <a href="KUCHCHALA.html#sp=SP.WCA.75" style="color:black; margin-left: auto;
-  margin-right: auto;" class="mx-auto fas fa-tooth"> </a>
+  margin-right: auto;" class="fas fa-tooth fa-5x"> </a>
 
       <span class="mx-auto">Dentist</span>
     </div>
@@ -177,21 +182,26 @@
   </div>
 
   <!-- search -->
-  <div class="flex w-full justify-center items-end">
+  <div class="flex w-full justify-center items-end mb-5 mt-12">
     <button
-      class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-green-500 hover:bg-green-600 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+      class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-green-500 hover:bg-green-600 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
       onclick="window.location.href='KUCHCHALA.html'">Find a doctor near me</button>
   </div>
 
+<p style="page-break-after: always;">&nbsp;</p>
+<p style="page-break-before: always;">&nbsp;</p>
+
   <!-- img body -->
-  <section id="img_body" , class="text-gray-600 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <section id="img_body" class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col">
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-6 font-medium text-gray-900">Goodbye hassle!
-          <br class="hidden lg:inline-block">Get help instantly!
+        class="grid justify-items-center lg:flex-grow md:w-1/2 lg:pr-12 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+        <h1 class="title-font sm:text-4xl text-3xl mb-6 font-medium text-gray-900">Goodbye hassle! Get help instantly!
         </h1>
-        <p class="flex justify-between mt-4 mb-8 leading-relaxed"> During epidemic or infectious disease outbreaks, a
+        <p class="ml-4 flex justify-between mt-4 leading-relaxed text-lg">
+        HealthAPPy is a single, trusted web platform with a mission to streamline the process of finding the perfect consultation, near you, with one tap. Our motto - An initiative to make health happy.
+        </p>
+        <p class="ml-4 flex justify-between mb-8 leading-relaxed text-lg"> During epidemic or infectious disease outbreaks, a
           lot of
           healthcare providers are converted to dedicated centres for infectious disease care. However, a number of
           patients for essential surgeries and treatments such as diabetic persons requiring insulin injections, people
@@ -217,12 +227,12 @@
   <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>
   <!-- cards -->
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap -m-3">
-        <div class="p-3 lg:w-1/2">
+    <div class="flex py-24 mx-auto">
+      <div class="grid mx-10">
+        <div class="max-w-md p-3">
           <div
             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+            <img alt="team" class="flex-shrink-0 rounded-lg w-36 h-36 object-cover object-center sm:mb-0 mb-4"
               src="https://dummyimage.com/200x200">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Aditya Mishra</h2>
@@ -241,10 +251,10 @@
             </div>
           </div>
         </div>
-        <div class="p-3 lg:w-1/2">
+        <div class="max-w-md p-3">
           <div
             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+            <img alt="team" class="flex-shrink-0 rounded-lg w-36 h-36 object-cover object-center sm:mb-0 mb-4"
               src="https://dummyimage.com/201x201">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Rohit Garg</h2>
@@ -263,10 +273,10 @@
             </div>
           </div>
         </div>
-        <div class="p-3 lg:w-1/2">
+        <div class="max-w-md p-3">
           <div
             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+            <img alt="team" class="flex-shrink-0 rounded-lg w-36 h-36 object-cover object-center sm:mb-0 mb-4"
               src="https://dummyimage.com/204x204">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Dhruv Nagpal</h2>
@@ -286,19 +296,20 @@
           </div>
         </div>
       </div>
+      <iframe width="640px" height="640px"
+      src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZAAOnDv0VUNzJNTVFIRjhTTDU0SkFQM0U1MTRRRzRIWS4u&embed=true"
+      frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh"
+      allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
     </div>
   </section>
 
   <!-- map body -->
   <section class="text-gray-600 body-font relative">
     <div class="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap">
-      <iframe class="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+      <!-- <iframe class="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3022.183213482943!2d-73.98773128583522!3d40.75799491369666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospital%20new%20york!5e0!3m2!1sen!2sin!4v1624287047689!5m2!1sen!2sin"
-        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <iframe width="640px" height="480px"
-        src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZAAOnDv0VUNzJNTVFIRjhTTDU0SkFQM0U1MTRRRzRIWS4u&embed=true"
-        frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh"
-        allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+     
       <!-- <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div class="lg:w-1/2 px-6">
                 <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
@@ -344,7 +355,7 @@
           1</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div
-            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            class="flex-shrink-0 w-24 h-24 bg-indigo-200 text-indigo-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -366,7 +377,7 @@
           2</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div
-            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            class="flex-shrink-0 w-24 h-24 bg-indigo-200 text-indigo-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -388,7 +399,7 @@
           3</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div
-            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            class="flex-shrink-0 w-24 h-24 bg-indigo-200 text-indigo-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               class="w-12 h-12" viewBox="0 0 24 24">
               <circle cx="12" cy="5" r="3"></circle>
@@ -411,7 +422,7 @@
           4</div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div
-            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            class="flex-shrink-0 w-24 h-24 bg-indigo-200 text-indigo-500 rounded-full inline-flex items-center justify-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               class="w-12 h-12" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -437,16 +448,16 @@
           <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Home</h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fly to top</a>
+              <a class="text-gray-600 hover:text-gray-800" href="#top">Fly to top</a>
             </li>
             <li>
               <a class="text-gray-600 hover:text-gray-800">About us</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Search</a>
+              <a class="text-gray-600 hover:text-gray-800" href = "KUCHCHALA.html">Search</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800" href:"tel:+919829202950">SOS</a>
+              <a class="text-gray-600 hover:text-gray-800" href="privacy_policy.html">Privacy Policy</a>
             </li>
           </nav>
         </div>

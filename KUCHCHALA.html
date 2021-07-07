@@ -4,7 +4,7 @@
    <title>
       Search
    </title>
-   <link rel="stylesheet" href="CSS/StyleSheet.css">
+   <link rel="stylesheet" href="StyleSheet.css">
    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
    <meta name="google-signin-client_id" content="1056188223200-m1opoqg6488i7g22p6a00lp05j6ufm6m.apps.googleusercontent.com">
    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -30,18 +30,6 @@
          console.log(specialtyCd);
          var specialtyLabel = specialtyLabelByCode[specialtyCd];
          console.log(specialtyLabel);
-         //   if (specialtyLabel) {
-         //     config.entry = {
-         //       screenName: 'searchNearMe',
-         //       specialtyCode: specialtyCd,
-         //    }
-         // }
-         // else{
-         //    config.entry = {
-         //       screenName:'home'
-         //    }
-         // }
-
       }
       customElements.whenDefined('hcl-sdk').then(function () {
          var HCLSDK = document.querySelector('hcl-sdk');
@@ -132,21 +120,6 @@
          </div>
       </div>
    </header>
-
-   
-   <!-- <a
-      class="mx-auto flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mt-0 mb-8 md:mb-4">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-         stroke-linejoin="round" stroke-width="2"
-         class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-12 h-12 text-white p-2 bg-indigo-500 rounded-full mx-2"
-         viewBox="0 0 24 24">
-         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <div
-         class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-3xl font-large">
-         HealthAPPy</div>
-   </a> -->
-
    <hcl-sdk>
    </hcl-sdk>
 </body>

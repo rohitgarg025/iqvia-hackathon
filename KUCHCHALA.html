@@ -1,67 +1,154 @@
 <html>
-   <head>
-      <title>
-         Search
-      </title>
-      <link rel="stylesheet" href="CSS/StyleSheet.css">
-   </head>
-   <body>
-      <script>
-         var specialtyLabelByCode = {
-  'SP.WCA.75': 'Dentistry',
-  'SP.WCA.08': 'Cardiology',
-  'SP.WCA.18': 'Endocrinology & Metabolism',
-  'SP.WCA.PS': 'Psychologist',
-  'SP.WCA.16': 'Dermatology',
-  'SP.WCA.36': 'Respiratory Medicine',
-  'SP.WCA.01': 'General Practice',
-  'SP.WCA.44': 'Pediatrics',
-}
 
-         var matches = window.location.hash.match(/sp=([A-Z0-9.]+)/);
-         if (matches) {
-  var specialtyCd = matches[1];
-  console.log(specialtyCd);
-  var specialtyLabel = specialtyLabelByCode[specialtyCd];
-  console.log(specialtyLabel);
-//   if (specialtyLabel) {
-//     config.entry = {
-//       screenName: 'searchNearMe',
-//       specialtyCode: specialtyCd,
-//    }
-// }
-// else{
-//    config.entry = {
-//       screenName:'home'
-//    }
-// }
+<head>
+   <title>
+      Search
+   </title>
+   <link rel="stylesheet" href="CSS/StyleSheet.css">
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+   <meta name="google-signin-client_id" content="1056188223200-m1opoqg6488i7g22p6a00lp05j6ufm6m.apps.googleusercontent.com">
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-}
-         customElements.whenDefined('hcl-sdk').then(function() {
+</head>
+
+<body>
+   <script>
+      var specialtyLabelByCode = {
+         'SP.WCA.75': 'Dentistry',
+         'SP.WCA.08': 'Cardiology',
+         'SP.WCA.18': 'Endocrinology & Metabolism',
+         'SP.WCA.PS': 'Psychologist',
+         'SP.WCA.16': 'Dermatology',
+         'SP.WCA.36': 'Respiratory Medicine',
+         'SP.WCA.01': 'General Practice',
+         'SP.WCA.44': 'Pediatrics',
+      }
+
+      var matches = window.location.hash.match(/sp=([A-Z0-9.]+)/);
+      if (matches) {
+         var specialtyCd = matches[1];
+         console.log(specialtyCd);
+         var specialtyLabel = specialtyLabelByCode[specialtyCd];
+         console.log(specialtyLabel);
+         //   if (specialtyLabel) {
+         //     config.entry = {
+         //       screenName: 'searchNearMe',
+         //       specialtyCode: specialtyCd,
+         //    }
+         // }
+         // else{
+         //    config.entry = {
+         //       screenName:'home'
+         //    }
+         // }
+
+      }
+      customElements.whenDefined('hcl-sdk').then(function () {
          var HCLSDK = document.querySelector('hcl-sdk');
          HCLSDK.init({
-         apiKey: '30017e53647ed21e',
-         entry: {
-            screenName: 'searchNearMe',
-            specialtyCode: specialtyCd,
-         }
+            apiKey: '30017e53647ed21e',
+            entry: {
+               screenName: 'searchNearMe',
+               specialtyCode: specialtyCd,
+            }
          })
       });
 
-      function intial(){
+      function intial() {
          document.querySelector('hcl-sdk').backToHome();
       }
 
-      </script>
-      <script src=https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js></script>
-      <script src=https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js></script>
+   </script>
+   <script src=https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js></script>
+   <script src=https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js></script>
 
-   <div>
-      <button class = "reset_button" onclick="intial()">Reset</button>
-      <button onclick="location.href='index.html'" type="button">
-         Home</button>
-   </div>
-      <hcl-sdk>
-      </hcl-sdk>      
-   </body>
+   <header id="top" class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a onclick = "location.href='index.html'" href="#top"
+               class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 mr-5 hover:text-gray-900">Home</a>
+            <a href="#img_body"
+               class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 mr-5 hover:text-gray-900">About
+               Us</a>
+            <a onclick="intial()" href="https://elemental.medium.com/" id="https://medium.com/topic/health"
+               class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 mr-5 hover:text-gray-900">Reset</a>
+            <div
+               class="g-signin2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 mr-5 hover:text-gray-900"
+               data-onsuccess="onSignIn">
+            </div>
+
+            <a href="#"
+               class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 mr-5 hover:text-gray-900"
+               onclick="signOut();">Sign out</a>
+            <script>
+               function signOut() {
+                  var auth2 = gapi.auth2.getAuthInstance();
+                  auth2.signOut().then(function () {
+                     console.log('User signed out.');
+                     document.getElementById('google_user_name').innerHTML = "";
+                     alert('User Signed Out Sucessfully'); //test
+                  });
+               }
+               function onSignIn(googleUser) {
+                  var profile = googleUser.getBasicProfile();
+                  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                  var user_name = profile.getName()
+                  console.log('Name: ' + user_name);
+                  console.log('Image URL: ' + profile.getImageUrl());
+                  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+                  document.getElementById('google_user_name').innerHTML = "Welcome Back " + user_name;
+               }
+            </script>
+         </nav>
+         <a
+            class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+               stroke-linejoin="round" stroke-width="2"
+               class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-12 h-12 text-white p-2 bg-indigo-500 rounded-full mx-2"
+               viewBox="0 0 24 24">
+               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <!-- <h1 class="ml-3 text-xl">HealthAPPy</h1> -->
+            <div
+               class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-3xl font-large">
+               HealthAPPy</div>
+         </a>
+         <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+            <!-- <span class="flex h-3 w-3">
+                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                 <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+               </span> -->
+            <div id="google_user_name" class="py-1 px-3 mr-3"></div>
+            <button
+               class="shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex items-center text-white bg-red-500 hover:bg-red-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
+                  href="tel:911" style="margin-left: auto;
+                   margin-right: auto;" class="fas fa-first-aid mx-auto"> SOS</a>
+               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+               </svg>
+            </button>
+
+         </div>
+      </div>
+   </header>
+
+   
+   <!-- <a
+      class="mx-auto flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mt-0 mb-8 md:mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+         stroke-linejoin="round" stroke-width="2"
+         class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-12 h-12 text-white p-2 bg-indigo-500 rounded-full mx-2"
+         viewBox="0 0 24 24">
+         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <div
+         class="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-3xl font-large">
+         HealthAPPy</div>
+   </a> -->
+
+   <hcl-sdk>
+   </hcl-sdk>
+</body>
+
 </html>

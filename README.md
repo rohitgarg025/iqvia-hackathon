@@ -3,9 +3,9 @@
 * App Link: https://hcliqvia.netlify.app/
 
 ## Designed, developed and made by : 
-Aditya Mishra
-Rohit Garg
-Dhruv Nagpal
+* Aditya Mishra
+* Rohit Garg
+* Dhruv Nagpal
 
 ## Github Link:
 https://github.com/rohitgarg025/iqvia-hackathon
